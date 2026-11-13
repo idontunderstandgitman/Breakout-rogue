@@ -443,7 +443,7 @@
     "upgrades.palette.verbose_description": "",
     "upgrades.passive_income.name": "Пассивный доход",
     "upgrades.passive_income.tooltip": "+{{lvl}} комбо / кирпич, весло не имеет значения {{time}}с после перемещения",
-    "upgrades.passive_income.verbose_description": "Некоторые привилегии могут помочь шарам делать то, что вы хотите, без необходимости что-либо предпринимать.",
+    "upgrades.passive_income.verbose_description": "+{{lvl}} combo / brick broken, paddle is immaterial {{time}}s after moving. Some perks can help the balls do what you want without needing to do anything. \n\nWhile the paddle is immaterial, the coins pass through it. The balls always bounce on it.",
     "upgrades.picky_eater.name": "Придирчивый едок",
     "upgrades.picky_eater.tooltip": "+{{lvl}} комбо за каждый разбитый кирпич, сбрасывается при смене цвета шара",
     "upgrades.picky_eater.verbose_description": "Когда вы разбиваете кирпич того же цвета, что и ваш шарик, ваше комбо увеличивается на единицу.\nЕсли кирпич другого цвета, то мяч принимает новый цвет, но комбо обнуляется, если только не осталось кирпичей того же цвета, что и мяч.\nКак только вы получите комбо выше минимального, кирпичи неправильного цвета будут обведены красной рамкой.\nЕсли у вас больше одного шара, они все меняют цвет, когда один из них попадает в кирпич.",

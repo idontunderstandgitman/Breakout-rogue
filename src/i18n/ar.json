@@ -443,7 +443,7 @@
     "upgrades.palette.verbose_description": "",
     "upgrades.passive_income.name": "الدخل السلبي",
     "upgrades.passive_income.tooltip": "+{{lvl}} مجموعة / لبنة، المجداف غير مهم {{time}}ثانية بعد التحرك",
-    "upgrades.passive_income.verbose_description": "يمكن لبعض الامتيازات أن تساعد الكرات على القيام بما تريد دون الحاجة إلى القيام بأي شيء.",
+    "upgrades.passive_income.verbose_description": "+{{lvl}} combo / brick broken, paddle is immaterial {{time}}s after moving. Some perks can help the balls do what you want without needing to do anything. \n\nWhile the paddle is immaterial, the coins pass through it. The balls always bounce on it.",
     "upgrades.picky_eater.name": "آكل انتقائي",
     "upgrades.picky_eater.tooltip": "+{{lvl}} مجموعة لكل لبنة مكسورة، يتم إعادة تعيينها عند تغير لون الكرة",
     "upgrades.picky_eater.verbose_description": "كلما كسرتَ لبنة من نفس لون كرتك، تزداد مجموعتك بمقدار كرة واحدة.\n\nإذا كان لونها مختلفًا، تأخذ الكرة اللون الجديد، لكن المجموعة تُعاد ضبطها، إلا في حال عدم وجود أي طوب متبقي من لون الكرة.\n\nبمجرد حصولك على مجموعة أعلى من الحد الأدنى، ستُحاط الطوب ذات اللون غير المناسب بإطار أحمر.\n\nإذا كان لديك أكثر من كرة، فسيتغير لونها جميعًا عند اصطدام إحداها بطوبة.",

@@ -443,7 +443,7 @@
     "upgrades.palette.verbose_description": "要注意到，某些關卡僅有單色。",
     "upgrades.passive_income.name": "被動收入",
     "upgrades.passive_income.tooltip": "更多硬幣，但是移動的槳板接不住球或硬幣",
-    "upgrades.passive_income.verbose_description": "+{{lvl}} 連擊 / 磚塊破碎，移動 {{time}}秒後，槳不再重要。某些技能可以幫助球按照你的意願行動，而無需你做任何事情。",
+    "upgrades.passive_income.verbose_description": "+{{lvl}} combo / brick broken, paddle is immaterial {{time}}s after moving. Some perks can help the balls do what you want without needing to do anything. \n\nWhile the paddle is immaterial, the coins pass through it. The balls always bounce on it.",
     "upgrades.picky_eater.name": "挑食者",
     "upgrades.picky_eater.tooltip": "如果你逐色擊破磚塊，將獲得更多硬幣",
     "upgrades.picky_eater.verbose_description": "每當你的球擊破一塊與其顏色相同的磚塊時，你的連擊數會增加螢幕上顏色的總數減一。\n如果擊破的是不同顏色的磚塊時，球會變成新的顏色，但連擊數會重置，除非之前所有與球的顏色相同的磚塊都已擊破。\n一旦你的連擊數超過最低值，顏色錯誤的磚塊就會出現紅色邊框。\n如果你有多個球，當其中一個球擊中磚塊時，所有球的顏色都會變更。",

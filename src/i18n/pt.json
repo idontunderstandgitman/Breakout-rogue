@@ -443,7 +443,7 @@
     "upgrades.palette.verbose_description": "Tome cuidado! Alguns níveis só possuem uma única cor. O primeiro e o último bloco acertado não contam.",
     "upgrades.passive_income.name": "Renda passiva",
     "upgrades.passive_income.tooltip": "Mais moedas, mas uma raquete em movimento não consegue apanhá-las.",
-    "upgrades.passive_income.verbose_description": "+{{lvl}} de combo por blocos quebrados, a raquete fica imaterial {{time}}s depois de mover. Algumas vantagens podem ajudar as bolas a fazerem o que quer sem que precise fazer nada.\n\nAs moedas passarão pela raquete no nível 1, e a bola também passará pela raquete imaterial a partir do nível 2.",
+    "upgrades.passive_income.verbose_description": "+{{lvl}} combo / brick broken, paddle is immaterial {{time}}s after moving. Some perks can help the balls do what you want without needing to do anything. \n\nWhile the paddle is immaterial, the coins pass through it. The balls always bounce on it.",
     "upgrades.picky_eater.name": "Chato para comer",
     "upgrades.picky_eater.tooltip": "Mais moedas se quebrar tijolos da cor da bola",
     "upgrades.picky_eater.verbose_description": "Sempre que quebrar um tijolo com a mesma cor que a sua bola, o seu combo aumenta pelo número de cores no ecrã menos uma.\nSe for uma cor diferente, a bola fica com a nova cor, mas o combo reinicia, a menos que não haja tijolos da cor da bola.\nUma vez que obter um combo superior ao seu mínimo, os tijolos de cor diferente obterão uma borda vermelha.\nSe tem mais que uma bola, todos eles mudarão de cor sempre que uma delas atingir um tijolo.",

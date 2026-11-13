@@ -443,7 +443,7 @@
     "upgrades.palette.verbose_description": "",
     "upgrades.passive_income.name": "Reddito passivo",
     "upgrades.passive_income.tooltip": "Più monete ma una barra in movimento non cattura né palline né monete",
-    "upgrades.passive_income.verbose_description": "+{{lvl}} combo / mattone distrutti, la barra è immateriale {{time}}s dopo essersi spostata. Alcuni potenziamenti possono aiutare le palline a fare ciò che preferisci senza bisogno di fare nulla.",
+    "upgrades.passive_income.verbose_description": "+{{lvl}} combo / brick broken, paddle is immaterial {{time}}s after moving. Some perks can help the balls do what you want without needing to do anything. \n\nWhile the paddle is immaterial, the coins pass through it. The balls always bounce on it.",
     "upgrades.picky_eater.name": "Schizzinoso",
     "upgrades.picky_eater.tooltip": "Più monete se si distruggono mattoni colore per colore",
     "upgrades.picky_eater.verbose_description": "Ogni volta che distruggi un mattone dello stesso colore della pallina, la combinazione aumenta del numero di colori sullo schermo meno uno.\nSe è un colore diverso, la pallina prende quel nuovo colore, ma la combo si resetta, a meno che non ci siano rimasti mattoni del colore della pallina.\nUna volta che ottieni una combinazione superiore al minimo, i mattoni del colore sbagliato otterranno un bordo rosso.\nSe hai più di una pallina, tutte cambieranno colore ogni volta che una colpisce un mattone.",

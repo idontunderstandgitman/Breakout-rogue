@@ -443,7 +443,7 @@
     "upgrades.palette.verbose_description": "Buďte opatrní, některé úrovně mají jen jednu barvu. První a poslední rozbitá cihlička se nepočítají.",
     "upgrades.passive_income.name": "Pasivní příjem",
     "upgrades.passive_income.tooltip": "Více mincí, ale pohybující se pálka mince nezachytí.",
-    "upgrades.passive_income.verbose_description": "+{{lvl}} kombo / rozbitá cihlička, pálka je {{time}} s po pohybu nehmotná. Některá vylepšení můžou pomoci, aby míčky dělaly, co chcete, aniž byste museli něco dělat.\n\nNa 1. úrovni skrz nehmotnou pálku procházejí mince, na úrovni 2+ skrz pálku projde i míček.",
+    "upgrades.passive_income.verbose_description": "+{{lvl}} combo / brick broken, paddle is immaterial {{time}}s after moving. Some perks can help the balls do what you want without needing to do anything. \n\nWhile the paddle is immaterial, the coins pass through it. The balls always bounce on it.",
     "upgrades.picky_eater.name": "Vybíravý jedlík",
     "upgrades.picky_eater.tooltip": "Více mincí, pokud cihličky rozbíjíte postupně po barvách",
     "upgrades.picky_eater.verbose_description": "Kdykoli rozbijete cihličku stejné barvy jako míček, zvýší se vaše kombo o počet barev na obrazovce mínus jedna.\nPokud je to jiná barva, míček získá tuto novou barvu, ale kombo se zresetuje, leda by žádné cihly v barvě míčku už nezbyly.\nJakmile získáte kombo vyšší než minimum, získají cihličky špatné barvy červený okraj.\nMáte-li více než jeden míček, všechny přepínají barvu, kdykoli jeden z nich zasáhne cihličku.",

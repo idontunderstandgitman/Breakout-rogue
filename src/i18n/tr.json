@@ -443,7 +443,7 @@
     "upgrades.palette.verbose_description": "",
     "upgrades.passive_income.name": "Pasif gelir",
     "upgrades.passive_income.tooltip": "+{{lvl}} kombo / tuğla, kürek önemsizdir {{time}}saniye hareket ettikten sonra",
-    "upgrades.passive_income.verbose_description": "Bazı özellikler, topların hiçbir şey yapmanıza gerek kalmadan istediğinizi yapmasına yardımcı olabilir.",
+    "upgrades.passive_income.verbose_description": "+{{lvl}} combo / brick broken, paddle is immaterial {{time}}s after moving. Some perks can help the balls do what you want without needing to do anything. \n\nWhile the paddle is immaterial, the coins pass through it. The balls always bounce on it.",
     "upgrades.picky_eater.name": "Seçici yiyen",
     "upgrades.picky_eater.tooltip": "+{{lvl}} kombo her tuğla kırıldığında, top rengi değiştiğinde sıfırlanır",
     "upgrades.picky_eater.verbose_description": "Topunuzla aynı renkte bir tuğlayı kırdığınızda, kombonuz bir artar. \nEğer farklı bir renkteyse, top yeni rengi alır, ancak kombo sıfırlanır, tabii topun renginde tuğla kalmamışsa. \nMinimumunuzdan daha yüksek bir kombo elde ettiğinizde, yanlış renkteki tuğlalar kırmızı bir kenarlık alır. \nBirden fazla topunuz varsa, bunlardan biri bir tuğlaya çarptığında hepsi renk değiştirir.",

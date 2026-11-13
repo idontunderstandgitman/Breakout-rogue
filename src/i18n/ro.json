@@ -443,7 +443,7 @@
     "upgrades.palette.verbose_description": "",
     "upgrades.passive_income.name": "",
     "upgrades.passive_income.tooltip": "",
-    "upgrades.passive_income.verbose_description": "",
+    "upgrades.passive_income.verbose_description": "+{{lvl}} combo / brick broken, paddle is immaterial {{time}}s after moving. Some perks can help the balls do what you want without needing to do anything. \n\nWhile the paddle is immaterial, the coins pass through it. The balls always bounce on it.",
     "upgrades.picky_eater.name": "",
     "upgrades.picky_eater.tooltip": "",
     "upgrades.picky_eater.verbose_description": "",

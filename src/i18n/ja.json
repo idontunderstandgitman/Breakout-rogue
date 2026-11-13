@@ -443,7 +443,7 @@
     "upgrades.palette.verbose_description": "1色しかないレベルもあるので注意してください。最初と最後に当てたブロックは数えません。",
     "upgrades.passive_income.name": "受動所得",
     "upgrades.passive_income.tooltip": "コインが増えますが、動いているパドルではコインを受け止められません。",
-    "upgrades.passive_income.verbose_description": "ブロックを1つ壊すごとにコンボ+{{lvl}}。パドルを動かしてから{{time}}秒間、パドルがすり抜ける状態になります。パドルを動かさなくても、ボールを思いどおりに動かせるアップグレードもあります。\n\nレベル1ではコインがパドルをすり抜け、レベル2以上ではボールもすり抜けます。",
+    "upgrades.passive_income.verbose_description": "+{{lvl}} combo / brick broken, paddle is immaterial {{time}}s after moving. Some perks can help the balls do what you want without needing to do anything. \n\nWhile the paddle is immaterial, the coins pass through it. The balls always bounce on it.",
     "upgrades.picky_eater.name": "好き嫌い",
     "upgrades.picky_eater.tooltip": "ブロックを色ごとに壊すとコインが増えます",
     "upgrades.picky_eater.verbose_description": "ボールと同じ色のブロックを壊すたびに、画面上の色の数から1を引いた分だけコンボが増えます。\n違う色のブロックを壊すと、ボールがその色に変わり、コンボがリセットされます。ただし、ボールの色のブロックが残っていなかった場合はリセットされません。\nコンボが最小値を超えると、違う色のブロックに赤い枠が付きます。\nボールが複数あるときは、どれか1つがブロックに当たると全部の色が変わります。",

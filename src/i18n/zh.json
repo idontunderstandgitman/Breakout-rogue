@@ -443,7 +443,7 @@
     "upgrades.palette.verbose_description": "小心，某些关卡只有一种颜色。第一个和最后一个砖块击中不算数。",
     "upgrades.passive_income.name": "被动收入",
     "upgrades.passive_income.tooltip": "更多硬币，但移动球拍抓不到硬币。",
-    "upgrades.passive_income.verbose_description": "每一个打碎的砖块 +{{lvl}} 连击，球拍移动后 {{time}} 秒是非物质的。某些被动技能可以帮助球做你想做的事，无需做任何事情。\n\n在等级1，硬币会穿透球拍，并且在等级2+，球也会穿透非物质球拍。",
+    "upgrades.passive_income.verbose_description": "+{{lvl}} combo / brick broken, paddle is immaterial {{time}}s after moving. Some perks can help the balls do what you want without needing to do anything. \n\nWhile the paddle is immaterial, the coins pass through it. The balls always bounce on it.",
     "upgrades.picky_eater.name": "挑食者",
     "upgrades.picky_eater.tooltip": "逐个清理颜色，获得更多硬币",
     "upgrades.picky_eater.verbose_description": "每当你击碎一个与球的颜色相同的砖块，你的连击增加颜色之数减一的差。\n如果是不同颜色，球会变成那个新颜色，但连击会重置，除非没有剩余与球颜色相同的砖块。\n一旦你的连击高于最低值，错误颜色的砖块会有红色边框。\n如果你有多个球，每当其中一个球击中砖块，它们都会切换颜色。",

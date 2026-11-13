@@ -443,7 +443,7 @@
     "upgrades.palette.verbose_description": "Ten cuidado, algunos niveles solo tienen un color. El primer y el último ladrillo al que golpees no cuentan.",
     "upgrades.passive_income.name": "Ingreso pasivo",
     "upgrades.passive_income.tooltip": "Más monedas pero una raqueta en movimiento no captura monedas.",
-    "upgrades.passive_income.verbose_description": "+{{lvl}} combo / ladrillo roto, la paleta se vuelve inmaterial {{time}}s después de moverse. Algunas ventajas pueden ayudar a que las bolas hagan lo que quieras sin necesidad de hacer nada.\n\nLas monedas pasarán a través de la paleta en el nivel 1, y la bola también pasará a través de la paleta inmaterial en el nivel 2 o superior.",
+    "upgrades.passive_income.verbose_description": "+{{lvl}} combo / brick broken, paddle is immaterial {{time}}s after moving. Some perks can help the balls do what you want without needing to do anything. \n\nWhile the paddle is immaterial, the coins pass through it. The balls always bounce on it.",
     "upgrades.picky_eater.name": "Quisquilloso con la comida",
     "upgrades.picky_eater.tooltip": "Más monedas si rompes ladrillos color por color",
     "upgrades.picky_eater.verbose_description": "Cada vez que rompes un ladrillo del mismo color que tu bola, tu combinación aumenta en uno.\nSi es de otro color, la bola adopta este nuevo color, pero la combinación se reinicia, a menos que no queden ladrillos del mismo color que la bola.\nCuando consigas una combinación superior a la mínima, los ladrillos del color incorrecto tendrán un borde rojo.\nSi tienes más de una bola, todas cambiarán de color cuando una de ellas golpee un ladrillo.",

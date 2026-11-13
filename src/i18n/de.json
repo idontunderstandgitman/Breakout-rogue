@@ -443,7 +443,7 @@
     "upgrades.palette.verbose_description": "",
     "upgrades.passive_income.name": "Passives Einkommen",
     "upgrades.passive_income.tooltip": "+{{lvl}} Combo / Brick, es sei denn, das Paddel hat sich in den letzten {{time}}s bewegt, dann wird es stattdessen zurückgesetzt",
-    "upgrades.passive_income.verbose_description": "Einige Vergünstigungen können den Bällen helfen, das zu tun, was du willst, ohne dass du etwas tun musst.",
+    "upgrades.passive_income.verbose_description": "+{{lvl}} combo / brick broken, paddle is immaterial {{time}}s after moving. Some perks can help the balls do what you want without needing to do anything. \n\nWhile the paddle is immaterial, the coins pass through it. The balls always bounce on it.",
     "upgrades.picky_eater.name": "Wählerischer Esser",
     "upgrades.picky_eater.tooltip": "+{{lvl}} Combo pro zerbrochenem Stein, wird bei Farbwechsel des Balls zurückgesetzt",
     "upgrades.picky_eater.verbose_description": "Jedes Mal, wenn du einen Stein der gleichen Farbe wie deine Kugel zerstörst, erhöht sich deine Kombination um eins.\nWenn es eine andere Farbe ist, nimmt der Ball diese neue Farbe an, aber die Kombination wird zurückgesetzt, es sei denn, es sind keine Steine in der Farbe des Balls übrig.\nSobald du eine höhere Kombination als das Minimum erreicht hast, werden die Steine der falschen Farbe rot umrandet.\nWenn du mehr als eine Kugel hast, wechseln sie alle die Farbe, sobald eine von ihnen einen Stein trifft.",

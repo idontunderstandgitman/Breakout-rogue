@@ -2259,12 +2259,7 @@ export function ballTick(gameState: GameState, ball: Ball, frames: number) {
   const ballIsAbovePaddle =
     Math.abs(ball.x - gameState.puckPosition) <
     gameState.ballSize / 2 + gameState.puckWidth / 2;
-  if (
-    ball.y > ylimit &&
-    ball.vy > 0 &&
-    ballIsAbovePaddle &&
-    !(gameState.perks.passive_income && isMovingWhilePassiveIncome(gameState))
-  ) {
+  if (ball.y > ylimit && ball.vy > 0 && ballIsAbovePaddle) {
     const speed = Math.sqrt(ball.vx * ball.vx + ball.vy * ball.vy);
     let angle = Math.atan2(
       -gameState.puckWidth / 2,
@@ -3065,10 +3060,7 @@ function applyBrickSidesParticleEffects(gameState: GameState, frames: number) {
       100 * (Math.random() + 1),
     );
   }
-  if (
-    gameState.perks.streak_shots &&
-    !(gameState.perks.passive_income && isMovingWhilePassiveIncome(gameState))
-  ) {
+  if (gameState.perks.streak_shots) {
     const pos = 0.5 - Math.random();
     makeParticle(
       gameState,

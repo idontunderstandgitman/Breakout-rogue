@@ -443,7 +443,7 @@
     "upgrades.palette.verbose_description": "",
     "upgrades.passive_income.name": "درآمد غیرفعال",
     "upgrades.passive_income.tooltip": "سکه‌های بیشتر اما پاروی متحرک توپ‌ها یا سکه‌ها را نمی‌گیرد",
-    "upgrades.passive_income.verbose_description": "+{{lvl}} ترکیب برای هر آجر شکسته‌شده، پارو {{time}} ثانیه پس از حرکت غیرمادی است. برخی ویژگی‌ها می‌توانند به توپ‌ها کمک کنند بدون نیاز به انجام کاری آنچه می‌خواهید را انجام دهند.",
+    "upgrades.passive_income.verbose_description": "+{{lvl}} combo / brick broken, paddle is immaterial {{time}}s after moving. Some perks can help the balls do what you want without needing to do anything. \n\nWhile the paddle is immaterial, the coins pass through it. The balls always bounce on it.",
     "upgrades.picky_eater.name": "خوراک‌گزین",
     "upgrades.picky_eater.tooltip": "سکه‌های بیشتر اگر آجرها را رنگ به رنگ بشکنید",
     "upgrades.picky_eater.verbose_description": "هرگاه آجری هم‌رنگ توپ خود را بشکنید، ترکیب شما به تعداد رنگ‌های روی صفحه منهای یک افزایش می‌یابد.\nاگر رنگ متفاوت باشد، توپ آن رنگ جدید را می‌گیرد، اما ترکیب بازنشانی می‌شود، مگر اینکه هیچ آجری از رنگ توپ باقی نمانده باشد.\nوقتی ترکیب بالاتر از حداقل باشد، آجرهای رنگ اشتباه حاشیه قرمز می‌گیرند.\nاگر بیش از یک توپ داشته باشید، همه آن‌ها وقتی یکی به آجر برخورد کند تغییر رنگ می‌دهند.",

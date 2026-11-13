@@ -443,7 +443,7 @@
     "upgrades.palette.verbose_description": "",
     "upgrades.passive_income.name": "Пасивний дохід",
     "upgrades.passive_income.tooltip": "Більше монет, але рухома веслка не ловить кулі або монети",
-    "upgrades.passive_income.verbose_description": "+{{lvl}} combo / цегла зламаний, веслування is immaterial {{time}} після переміщення. Деякі перки можуть допомогти кулі зробити те, що ви хочете, не потрібно нічого робити.",
+    "upgrades.passive_income.verbose_description": "+{{lvl}} combo / brick broken, paddle is immaterial {{time}}s after moving. Some perks can help the balls do what you want without needing to do anything. \n\nWhile the paddle is immaterial, the coins pass through it. The balls always bounce on it.",
     "upgrades.picky_eater.name": "Пікі eater",
     "upgrades.picky_eater.tooltip": "Більше монет, якщо ви розбиваєте колір цегли за кольором",
     "upgrades.picky_eater.verbose_description": "Коли ви переламуєте цеглу таким же кольором, як ваш м'яч, ваш гребінець збільшує кількість кольорів на екрані мінус.\nЯкщо це інший колір, м'яч бере, що новий колір, але скидання комбо, якщо це не залишилося, залишених з м'якого кольору.\nПісля того, як ви отримуєте комбо вище, ніж ваш мінімум, цегла неправильного кольору отримає червоний кордон.\nЯкщо у вас є більше одного м'яча, всі вони переключають колір, коли один з них потрапив до цегли.",

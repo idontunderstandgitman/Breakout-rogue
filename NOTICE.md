@@ -20,5 +20,5 @@ The in-game menu links to this repository for that reason. Keep that link pointi
 
 ## Gameplay change to an existing upgrade
 
-- **Passive income**: the balls now pass through the immaterial (moving) paddle at every level, not only from level 2.
-  The tooltip and description were updated to say so.
+- **Passive income**: the balls are now always caught by the paddle, even while it is immaterial. Only the coins pass through.
+  Before, the ball passed through the paddle at level 2 and above, which the in-game description also claimed.

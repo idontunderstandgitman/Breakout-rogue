@@ -443,7 +443,7 @@
     "upgrades.palette.verbose_description": "Uważaj, na niektórych poziomach występuje tylko jeden kolor. Pierwsza i ostatnia trafiona cegła nie są brane pod uwagę.",
     "upgrades.passive_income.name": "Dochód pasywny",
     "upgrades.passive_income.tooltip": "Więcej monet, ale ruchoma łopatka ich nie łapie.",
-    "upgrades.passive_income.verbose_description": "+{{lvl}} kombinacji / zniszczona cegła, łopatka staje się niematerialna {{time}} sekund po przesunięciu. Niektóre atuty mogą sprawić, że piłki będą zachowywać się zgodnie z twoimi oczekiwaniami bez konieczności wykonywania jakichkolwiek czynności.\n\nNa poziomie 1 monety będą przechodzić przez łopatkę, a na poziomie 2+ piłka będzie również przechodzić przez niematerialną łopatkę.",
+    "upgrades.passive_income.verbose_description": "+{{lvl}} combo / brick broken, paddle is immaterial {{time}}s after moving. Some perks can help the balls do what you want without needing to do anything. \n\nWhile the paddle is immaterial, the coins pass through it. The balls always bounce on it.",
     "upgrades.picky_eater.name": "Wybredny smakosz",
     "upgrades.picky_eater.tooltip": "Więcej monet, jeśli rozbijesz cegły według kolorów",
     "upgrades.picky_eater.verbose_description": "Za każdym razem, gdy zniszczysz cegłę w tym samym kolorze co twoja piłka, twoja seria wzrośnie o liczbę kolorów widocznych na ekranie pomniejszoną o jeden. \nJeśli cegła ma inny kolor, piłka przyjmie ten nowy kolor, ale seria zostanie zresetowana, chyba że nie pozostały już żadne cegły w kolorze piłki. \nGdy osiągniesz serię wyższą niż minimalna, cegły w niewłaściwym kolorze zostaną otoczone czerwoną ramką. \nJeśli masz więcej niż jedną piłkę, wszystkie zmieniają kolor, gdy jedna z nich uderzy w cegłę.",

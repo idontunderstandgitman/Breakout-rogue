@@ -443,7 +443,7 @@
     "upgrades.palette.verbose_description": "",
     "upgrades.passive_income.name": "수동 소득",
     "upgrades.passive_income.tooltip": "동전이 더 많지만 움직이는 패들은 공이나 동전을 잡지 못합니다.",
-    "upgrades.passive_income.verbose_description": "일부 특전은 아무것도 하지 않아도 공이 원하는 것을 할 수 있도록 도와줍니다.",
+    "upgrades.passive_income.verbose_description": "+{{lvl}} combo / brick broken, paddle is immaterial {{time}}s after moving. Some perks can help the balls do what you want without needing to do anything. \n\nWhile the paddle is immaterial, the coins pass through it. The balls always bounce on it.",
     "upgrades.picky_eater.name": "까다로운 식성",
     "upgrades.picky_eater.tooltip": "벽돌 깨질 때마다 +{{lvl}} 콤보, 공 색이 바뀌면 초기화됨",
     "upgrades.picky_eater.verbose_description": "공과 같은 색의 벽돌을 부술 때마다 콤보가 하나씩 증가합니다.\n다른 색이면 공은 새로운 색으로 바뀌지만 공과 같은 색의 벽돌이 남아 있지 않은 한 콤보는 초기화됩니다.\n최소값보다 높은 콤보를 얻으면 잘못된 색의 벽돌에는 빨간색 테두리가 생깁니다.\n공이 두 개 이상 있는 경우, 공 중 하나가 벽돌에 닿을 때마다 공의 색이 모두 바뀝니다.",
