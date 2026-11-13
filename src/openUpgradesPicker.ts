@@ -315,6 +315,7 @@ export async function openUpgradesPicker(gameState: GameState) {
         }),
         ...upgradesActions,
         // Rogue only : new offers for coins
+        // Rogue only. Cast because the picker's choice type only lists upgrades.
         (isRogue(gameState) && !isRogueTest(gameState)
           ? {
               value: "rogue:reroll",

@@ -24,6 +24,7 @@ import {
   ROGUE_BOSS_REWARD_PICKS,
   ROGUE_CURSE_REWARD_UNITS,
   ROGUE_CURSE_ROUNDS,
+  ROGUE_MAX_CURSES,
   ROGUE_MAX_LIVES,
   ROGUE_SHIELD_ROUNDS,
   ShopItem,
@@ -225,6 +226,103 @@ export function rogueHudExtras(gameState: GameState) {
   return html;
 }
 
+// ---- Shop ------------------------------------------------------------------
+
+const SHOP_ICONS: Record<ShopItem["kind"], string> = {
+  combo: "icon:hot_start",
+  bedrock_shield: "icon:forgiving",
+  remove_upgrade: "icon:new_run",
+  owned_bias: "icon:limitless",
+  extra_life: "icon:extra_life",
+  extra_choice: "icon:one_more_choice",
+};
+
+function shopItemLabel(gameState: GameState, item: ShopItem) {
+  switch (item.kind) {
+    case "combo":
+      return t("rogue.shop.head_start", { combo: item.combo });
+    case "bedrock_shield":
+      return t("rogue.shop.bedrock_shield", { rounds: ROGUE_SHIELD_ROUNDS });
+    case "remove_upgrade":
+      return t("rogue.shop.remove_upgrade");
+    case "owned_bias":
+      return t("rogue.shop.owned_bias");
+    case "extra_life":
+      return t("rogue.shop.extra_life", {
+        left: ROGUE_MAX_LIVES - (gameState.rogueLivesBought || 0),
+      });
+    default:
+      return t("rogue.shop.extra_choice");
+  }
+}
+
+function shopItemHelp(item: ShopItem) {
+  const price = item.price;
+  switch (item.kind) {
+    case "combo":
+      return t("rogue.shop.price", { price });
+    case "bedrock_shield":
+      return t("rogue.shop.price_shield", { price });
+    case "remove_upgrade":
+      return t("rogue.shop.price_remove", { price });
+    case "owned_bias":
+      return t("rogue.shop.price_owned_bias", { price });
+    case "extra_life":
+      return t("rogue.shop.price_life", { price });
+    default:
+      return t("rogue.shop.price_choice", { price });
+  }
+}
+
+/** Can't be bought right now : too expensive, or it would have no effect */
+function isShopItemDisabled(gameState: GameState, item: ShopItem) {
+  if (gameState.rogueWallet < item.price) return true;
+  switch (item.kind) {
+    case "bedrock_shield":
+      return gameState.rogueBedrockShield >= ROGUE_SHIELD_ROUNDS;
+    case "owned_bias":
+      return !!gameState.rogueOwnedBias;
+    case "remove_upgrade":
+      return ownedUpgrades(gameState).length === 0;
+    case "extra_life":
+      return (gameState.rogueLivesBought || 0) >= ROGUE_MAX_LIVES;
+    default:
+      return false;
+  }
+}
+
+/** Pays for the item and applies it. Removing an upgrade is handled by the caller. */
+function buyShopItem(gameState: GameState, item: ShopItem) {
+  gameState.rogueWallet -= item.price;
+  switch (item.kind) {
+    case "owned_bias":
+      gameState.rogueOwnedBias = true;
+      break;
+    case "combo":
+      gameState.rogueHeadStart += item.combo;
+      break;
+    case "bedrock_shield":
+      gameState.rogueBedrockShield = ROGUE_SHIELD_ROUNDS;
+      break;
+    case "extra_life":
+      gameState.rogueLivesBought = (gameState.rogueLivesBought || 0) + 1;
+      gameState.perks.extra_life += 1;
+      break;
+    default:
+      // The extra choice is also used up by the picker, and the shop gets one more option
+      gameState.rogueExtraUpgradeChoices++;
+      gameState.rogueExtraShopOptions++;
+  }
+}
+
+/** The curse offered this visit, if it can still be taken */
+function curseCanBeTaken(gameState: GameState, curseId: CurseId | undefined) {
+  const active = activeCurseIds(gameState.rogueCurses);
+  return (
+    !!curseId && !active.includes(curseId) && active.length < ROGUE_MAX_CURSES
+  );
+}
+
 /** Shop open between rounds : spend caught coins on power-ups for the next rounds */
 export async function openRogueShop(gameState: GameState) {
   const bricks = gameState.level.bricksCount;
@@ -247,54 +345,9 @@ export async function openRogueShop(gameState: GameState) {
   let curseTaken = false;
   const curseId = curseOffer(gameState.rogueSeed, round, gameState.rogueCurses);
 
-  const label = (item: ShopItem) => {
-    switch (item.kind) {
-      case "combo":
-        return t("rogue.shop.head_start", { combo: item.combo });
-      case "bedrock_shield":
-        return t("rogue.shop.bedrock_shield", { rounds: ROGUE_SHIELD_ROUNDS });
-      case "remove_upgrade":
-        return t("rogue.shop.remove_upgrade");
-      case "owned_bias":
-        return t("rogue.shop.owned_bias");
-      case "extra_life":
-        return t("rogue.shop.extra_life", {
-          left: ROGUE_MAX_LIVES - (gameState.rogueLivesBought || 0),
-        });
-      default:
-        return t("rogue.shop.extra_choice");
-    }
-  };
-  const help = (item: ShopItem) => {
-    switch (item.kind) {
-      case "combo":
-        return t("rogue.shop.price", { price: item.price });
-      case "bedrock_shield":
-        return t("rogue.shop.price_shield", { price: item.price });
-      case "remove_upgrade":
-        return t("rogue.shop.price_remove", { price: item.price });
-      case "owned_bias":
-        return t("rogue.shop.price_owned_bias", { price: item.price });
-      case "extra_life":
-        return t("rogue.shop.price_life", { price: item.price });
-      default:
-        return t("rogue.shop.price_choice", { price: item.price });
-    }
-  };
-  const icon = (item: ShopItem) =>
-    getIcon(
-      {
-        combo: "icon:hot_start",
-        bedrock_shield: "icon:forgiving",
-        remove_upgrade: "icon:new_run",
-        owned_bias: "icon:limitless",
-        extra_life: "icon:extra_life",
-        extra_choice: "icon:one_more_choice",
-      }[item.kind],
-    );
-
   while (true) {
     const rerollCost = rerollPrice(bricks, rerolls);
+    const showCurse = !curseTaken && curseCanBeTaken(gameState, curseId);
     const choice = await requiredAsyncAlert<string>({
       title: t("rogue.shop.title", { round: gameState.currentLevel + 1 }),
       content: [
@@ -304,18 +357,10 @@ export async function openRogueShop(gameState: GameState) {
         }),
         ...items.map((item) => ({
           value: "buy:" + item.id,
-          icon: icon(item),
-          text: label(item),
-          help: help(item),
-          disabled:
-            gameState.rogueWallet < item.price ||
-            (item.kind === "bedrock_shield" &&
-              gameState.rogueBedrockShield >= ROGUE_SHIELD_ROUNDS) ||
-            (item.kind === "owned_bias" && gameState.rogueOwnedBias) ||
-            (item.kind === "remove_upgrade" &&
-              ownedUpgrades(gameState).length === 0) ||
-            (item.kind === "extra_life" &&
-              (gameState.rogueLivesBought || 0) >= ROGUE_MAX_LIVES),
+          icon: getIcon(SHOP_ICONS[item.kind]),
+          text: shopItemLabel(gameState, item),
+          help: shopItemHelp(item),
+          disabled: isShopItemDisabled(gameState, item),
         })),
         {
           value: "reroll",
@@ -324,10 +369,7 @@ export async function openRogueShop(gameState: GameState) {
           help: t("rogue.shop.reroll_help", { price: rerollCost }),
           disabled: gameState.rogueWallet < rerollCost,
         },
-        curseId &&
-        !curseTaken &&
-        !activeCurseIds(gameState.rogueCurses).includes(curseId) &&
-        activeCurseIds(gameState.rogueCurses).length < 2
+        showCurse && curseId
           ? {
               value: "curse:" + curseId,
               icon: getIcon("icon:left_is_lava"),
@@ -349,58 +391,37 @@ export async function openRogueShop(gameState: GameState) {
       ],
     });
     const value = String(choice);
+
     if (value === "reroll") {
-      if (gameState.rogueWallet < rerollCost) continue;
-      gameState.rogueWallet -= rerollCost;
-      rerolls++;
-      items = select();
-      continue;
-    }
-    if (value.startsWith("curse:")) {
-      const id = value.slice("curse:".length) as keyof GameState["rogueCurses"];
-      if (id !== curseId || activeCurseIds(gameState.rogueCurses).length >= 2)
-        continue;
-      gameState.rogueCurses = {
-        ...gameState.rogueCurses,
-        [id]: ROGUE_CURSE_ROUNDS,
-      };
-      gameState.rogueWallet += ROGUE_CURSE_REWARD_UNITS[id] * unit;
-      // The offer is gone for this visit
-      curseTaken = true;
-      continue;
-    }
-    if (!value.startsWith("buy:")) return;
-    const item = items.find((i) => "buy:" + i.id === value);
-    if (!item || gameState.rogueWallet < item.price) continue;
-    if (
-      item.kind === "bedrock_shield" &&
-      gameState.rogueBedrockShield >= ROGUE_SHIELD_ROUNDS
-    )
-      continue;
-    if (item.kind === "owned_bias" && gameState.rogueOwnedBias) continue;
-    if (
-      item.kind === "extra_life" &&
-      (gameState.rogueLivesBought || 0) >= ROGUE_MAX_LIVES
-    )
-      continue;
-    if (item.kind === "remove_upgrade") {
-      // Pay only once an upgrade was really removed
-      const removed = await askUpgradeToRemove(gameState);
-      if (!removed) continue;
-      gameState.rogueWallet -= item.price;
-      continue;
-    }
-    gameState.rogueWallet -= item.price;
-    if (item.kind === "owned_bias") gameState.rogueOwnedBias = true;
-    else if (item.kind === "combo") gameState.rogueHeadStart += item.combo;
-    else if (item.kind === "bedrock_shield")
-      gameState.rogueBedrockShield = ROGUE_SHIELD_ROUNDS;
-    else if (item.kind === "extra_life") {
-      gameState.rogueLivesBought = (gameState.rogueLivesBought || 0) + 1;
-      gameState.perks.extra_life += 1;
+      if (gameState.rogueWallet >= rerollCost) {
+        gameState.rogueWallet -= rerollCost;
+        rerolls++;
+        items = select();
+      }
+    } else if (value.startsWith("curse:")) {
+      const id = value.slice("curse:".length) as CurseId;
+      if (id === curseId && curseCanBeTaken(gameState, curseId)) {
+        gameState.rogueCurses = {
+          ...gameState.rogueCurses,
+          [id]: ROGUE_CURSE_ROUNDS,
+        };
+        gameState.rogueWallet += ROGUE_CURSE_REWARD_UNITS[id] * unit;
+        // The offer is gone for this visit
+        curseTaken = true;
+      }
+    } else if (value.startsWith("buy:")) {
+      const item = items.find((i) => "buy:" + i.id === value);
+      if (!item || isShopItemDisabled(gameState, item)) continue;
+      if (item.kind === "remove_upgrade") {
+        // Pay only once an upgrade was really removed
+        if (await askUpgradeToRemove(gameState))
+          gameState.rogueWallet -= item.price;
+      } else {
+        buyShopItem(gameState, item);
+      }
     } else {
-      gameState.rogueExtraUpgradeChoices++;
-      gameState.rogueExtraShopOptions++;
+      // "continue", or the popup was closed
+      return;
     }
   }
 }
