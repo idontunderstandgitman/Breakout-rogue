@@ -346,6 +346,8 @@ export type GameState = {
   rogueOwnedBias: boolean;
   // Rogue mode : rounds left (including the current one) for each curse
   rogueCurses: Record<"wrong_angle" | "slow_paddle" | "retro", number>;
+  // Rogue mode : stage (1 mildest to 3 hardest) of the slow paddle curse
+  rogueSlowStage: number;
   // Rogue mode : extra lives bought this run, they can not be restored
   rogueLivesBought: number;
   // Where the pointer wants the paddle, used when the paddle has a speed limit

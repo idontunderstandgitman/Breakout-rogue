@@ -28,7 +28,7 @@ Endless alternative to the 7 level campaign. Start it from the main menu ("Rogue
 - **Reroll**: the shop and the upgrade picker both have a reroll button. It costs 3 price units and doubles each time in the same shop or picker.
 - **Curses**: every shop also offers one curse (not counted in the 3 power-ups). Taking it pays coins right away and lasts 3 rounds. At most 2 are active at once.
   - Crooked launch: the ball leaves the paddle up to about 8 degrees off (`ROGUE_WRONG_ANGLE`).
-  - Slow paddle: the paddle follows the pointer at a limited speed (`ROGUE_SLOW_PADDLE_SPEED`).
+  - Slow paddle: the paddle follows the pointer at a limited speed. Three stages (`ROGUE_SLOW_PADDLE_STAGES`), all offered together when this curse comes up: the slower, the bigger the reward (6 / 10 / 15 price units). Stage 3 is the original, hardest one.
   - Retro controls: on touch screens the left and right halves of the screen are two buttons (`ROGUE_RETRO_PADDLE_SPEED`). Nothing changes with mouse or arrow keys.
 - **Boss rounds**: every 10th round. Same map size schedule as other rounds, but twice the bedrock and a timer
   (`ROGUE_BOSS_BASE_MS` + `ROGUE_BOSS_MS_PER_BRICK` per brick). Clearing the last brick in time gives +3 upgrade picks and +2 choices in the next picker. The round continues after the timer, there is just no reward (losing a boss costs nothing else).

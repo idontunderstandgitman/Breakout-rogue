@@ -369,13 +369,44 @@ export const ROGUE_MAX_CURSES = 2;
 export const ROGUE_CURSE_REWARD_UNITS: Record<
   (typeof ROGUE_CURSE_IDS)[number],
   number
-> = { slow_paddle: 15, wrong_angle: 20, retro: 25 };
+> = { slow_paddle: 15, wrong_angle: 20, retro: 25 }; // slow_paddle : hardest stage, see ROGUE_SLOW_PADDLE_STAGES
 /** Largest launch angle error in radians, about 8 degrees */
 export const ROGUE_WRONG_ANGLE = 0.14;
-/** Paddle speed limit, as a fraction of the play area width per frame */
-export const ROGUE_SLOW_PADDLE_SPEED = 1 / 120;
+/**
+ * Slow paddle comes in three stages : the slower the paddle, the bigger the reward.
+ * speed : paddle speed limit, as a fraction of the play area width per frame.
+ * units : reward in shop price units. The last stage is the original, hardest one.
+ */
+export const ROGUE_SLOW_PADDLE_STAGES = [
+  { speed: 1 / 50, units: 6 },
+  { speed: 1 / 80, units: 10 },
+  { speed: 1 / 120, units: 15 },
+] as const;
+export const ROGUE_SLOW_PADDLE_MAX_STAGE = ROGUE_SLOW_PADDLE_STAGES.length;
+
+/** Stages are numbered from 1. Anything unknown (old saves) is the hardest stage. */
+export function slowPaddleStage(stage: number | undefined) {
+  const n = Math.round(stage || ROGUE_SLOW_PADDLE_MAX_STAGE);
+  return Math.min(ROGUE_SLOW_PADDLE_MAX_STAGE, Math.max(1, n));
+}
+export function slowPaddleSpeed(stage: number | undefined) {
+  return ROGUE_SLOW_PADDLE_STAGES[slowPaddleStage(stage) - 1].speed;
+}
+export function slowPaddleRewardUnits(stage: number | undefined) {
+  return ROGUE_SLOW_PADDLE_STAGES[slowPaddleStage(stage) - 1].units;
+}
 /** Paddle speed with the retro buttons, same unit */
 export const ROGUE_RETRO_PADDLE_SPEED = 1 / 70;
+
+/** Reward for taking a curse, in shop price units */
+export function curseRewardUnits(
+  id: (typeof ROGUE_CURSE_IDS)[number],
+  slowStage?: number,
+) {
+  return id === "slow_paddle"
+    ? slowPaddleRewardUnits(slowStage)
+    : ROGUE_CURSE_REWARD_UNITS[id];
+}
 
 export function emptyCurses() {
   return { wrong_angle: 0, slow_paddle: 0, retro: 0 };

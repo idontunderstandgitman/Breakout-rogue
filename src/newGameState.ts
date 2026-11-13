@@ -17,6 +17,7 @@ import {
   ROGUE_EXCLUDED_PERKS,
   ROGUE_TEST_WALLET,
   emptyCurses,
+  ROGUE_SLOW_PADDLE_MAX_STAGE,
   newRogueSeed,
 } from "./rogue_generator";
 
@@ -168,6 +169,7 @@ export function newGameState(params: RunParams): GameState {
     rogueSavedPicks: 0,
     rogueOwnedBias: false,
     rogueCurses: emptyCurses(),
+    rogueSlowStage: ROGUE_SLOW_PADDLE_MAX_STAGE,
     rogueLivesBought: 0,
     puckTarget: 0,
     retroDirection: 0,

@@ -22,13 +22,16 @@ import {
   rogueMapSize,
   ROGUE_BOSS_REWARD_CHOICES,
   ROGUE_BOSS_REWARD_PICKS,
-  ROGUE_CURSE_REWARD_UNITS,
+  ROGUE_SLOW_PADDLE_MAX_STAGE,
+  ROGUE_SLOW_PADDLE_STAGES,
   ROGUE_CURSE_ROUNDS,
   ROGUE_MAX_CURSES,
   ROGUE_MAX_LIVES,
   ROGUE_SHIELD_ROUNDS,
   ShopItem,
   activeCurseIds,
+  curseRewardUnits,
+  slowPaddleStage,
   bossTimeLimitMs,
   curseOffer,
   isBossRound,
@@ -123,9 +126,13 @@ export function getRogueLevel(gameState: GameState, round: number): Level {
 
 type CurseId = keyof GameState["rogueCurses"];
 
-function curseName(id: CurseId) {
+function curseName(id: CurseId, slowStage?: number) {
   if (id === "wrong_angle") return t("rogue.curse.wrong_angle.name");
-  if (id === "slow_paddle") return t("rogue.curse.slow_paddle.name");
+  if (id === "slow_paddle")
+    return t("rogue.curse.slow_paddle.name", {
+      stage: slowPaddleStage(slowStage),
+      max: ROGUE_SLOW_PADDLE_MAX_STAGE,
+    });
   return t("rogue.curse.retro.name");
 }
 
@@ -220,7 +227,13 @@ export function rogueHudExtras(gameState: GameState) {
   const curses = activeCurseIds(gameState.rogueCurses);
   if (curses.length) {
     html += `<span> / </span><span data-tooltip="${curses
-      .map((id) => curseName(id) + " (" + gameState.rogueCurses[id] + ")")
+      .map(
+        (id) =>
+          curseName(id, gameState.rogueSlowStage) +
+          " (" +
+          gameState.rogueCurses[id] +
+          ")",
+      )
       .join(", ")}">☠ ${curses.length}</span>`;
   }
   return html;
@@ -315,6 +328,13 @@ function buyShopItem(gameState: GameState, item: ShopItem) {
   }
 }
 
+/** Stages offered for a curse : only the slow paddle has several, from mildest to hardest */
+function curseStages(id: CurseId) {
+  return id === "slow_paddle"
+    ? ROGUE_SLOW_PADDLE_STAGES.map((_, i) => i + 1)
+    : [0];
+}
+
 /** The curse offered this visit, if it can still be taken */
 function curseCanBeTaken(gameState: GameState, curseId: CurseId | undefined) {
   const active = activeCurseIds(gameState.rogueCurses);
@@ -369,19 +389,19 @@ export async function openRogueShop(gameState: GameState) {
           help: t("rogue.shop.reroll_help", { price: rerollCost }),
           disabled: gameState.rogueWallet < rerollCost,
         },
-        showCurse && curseId
-          ? {
-              value: "curse:" + curseId,
+        ...(showCurse && curseId
+          ? curseStages(curseId).map((stage) => ({
+              value: "curse:" + curseId + ":" + stage,
               icon: getIcon("icon:left_is_lava"),
-              text: curseName(curseId),
+              text: curseName(curseId, stage),
               help: t("rogue.shop.curse_help", {
                 text: curseHelp(curseId),
                 rounds: ROGUE_CURSE_ROUNDS,
-                reward: ROGUE_CURSE_REWARD_UNITS[curseId] * unit,
+                reward: curseRewardUnits(curseId, stage) * unit,
               }),
               actionLabel: t("rogue.shop.curse_take"),
-            }
-          : "",
+            }))
+          : []),
         {
           value: "continue",
           icon: getIcon("icon:new_run"),
@@ -399,13 +419,16 @@ export async function openRogueShop(gameState: GameState) {
         items = select();
       }
     } else if (value.startsWith("curse:")) {
-      const id = value.slice("curse:".length) as CurseId;
+      const [, id, stageText] = value.split(":") as [string, CurseId, string];
+      // Only the offered curse, and only a stage that exists
+      const stage = slowPaddleStage(Number(stageText));
       if (id === curseId && curseCanBeTaken(gameState, curseId)) {
         gameState.rogueCurses = {
           ...gameState.rogueCurses,
           [id]: ROGUE_CURSE_ROUNDS,
         };
-        gameState.rogueWallet += ROGUE_CURSE_REWARD_UNITS[id] * unit;
+        if (id === "slow_paddle") gameState.rogueSlowStage = stage;
+        gameState.rogueWallet += curseRewardUnits(id, stage) * unit;
         // The offer is gone for this visit
         curseTaken = true;
       }

@@ -75,7 +75,7 @@ import {
   ROGUE_TEST_WALLET,
   isRogueTest,
   ROGUE_RETRO_PADDLE_SPEED,
-  ROGUE_SLOW_PADDLE_SPEED,
+  slowPaddleSpeed,
   ROGUE_SPEED_LEVEL_CAP,
   ROGUE_WRONG_ANGLE,
   isProgressRun,
@@ -126,7 +126,7 @@ export function applyPuckCurses(gameState: GameState, frames: number) {
     gameState.needsRender = true;
   }
   if (curses.slow_paddle > 0) {
-    const maxStep = ROGUE_SLOW_PADDLE_SPEED * width * frames;
+    const maxStep = slowPaddleSpeed(gameState.rogueSlowStage) * width * frames;
     const delta = gameState.puckTarget - gameState.puckPosition;
     if (Number.isFinite(delta) && delta) {
       gameState.puckPosition +=

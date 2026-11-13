@@ -2,6 +2,11 @@
 // Added in 2026. Licensed under the GNU AGPL v3, see the LICENSE file.
 import {
   ROGUE_MAX_SIZE,
+  ROGUE_SLOW_PADDLE_STAGES,
+  curseRewardUnits,
+  slowPaddleRewardUnits,
+  slowPaddleSpeed,
+  slowPaddleStage,
   ROGUE_START_SIZE,
   bedrockCountFor,
   colorCountForRound,
@@ -338,5 +343,30 @@ describe("reroll and extra life", () => {
   it("extra life is only sold in the shop", () => {
     expect(ROGUE_EXCLUDED_PERKS).toContain("extra_life");
     expect(shopPool(60).some((i) => i.id === "extra_life")).toBe(true);
+  });
+});
+
+describe("slow paddle stages", () => {
+  it("has three stages, slower ones pay more", () => {
+    expect(ROGUE_SLOW_PADDLE_STAGES).toHaveLength(3);
+    for (let s = 1; s < 3; s++) {
+      expect(slowPaddleSpeed(s + 1)).toBeLessThan(slowPaddleSpeed(s));
+      expect(slowPaddleRewardUnits(s + 1)).toBeGreaterThan(
+        slowPaddleRewardUnits(s),
+      );
+    }
+  });
+  it("keeps the original curse as the hardest stage", () => {
+    expect(slowPaddleSpeed(3)).toBe(1 / 120);
+    expect(curseRewardUnits("slow_paddle", 3)).toBe(15);
+  });
+  it("treats unknown stages (old saves) as the hardest, and clamps", () => {
+    expect(slowPaddleStage(undefined)).toBe(3);
+    expect(slowPaddleStage(0)).toBe(3);
+    expect(slowPaddleStage(99)).toBe(3);
+    expect(slowPaddleStage(-4)).toBe(1);
+  });
+  it("other curses have a fixed reward", () => {
+    expect(curseRewardUnits("retro")).toBe(25);
   });
 });
