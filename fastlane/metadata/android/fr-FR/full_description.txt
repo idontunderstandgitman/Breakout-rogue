@@ -1,0 +1,21 @@
+<p>
+Voici une version roguelike du jeu Breakout original :
+Le but est d'attraper un maximum de pièces au cours de 7 niveaux.
+Les pièces apparaissent lorsque vous cassez des briques.
+Elles volent, rebondissent et roulent, et vous devez les attraper avec votre raquette.
+À la fin de chaque niveau, vous pouvez choisir des améliorations.
+Plus de 50 améliorations différentes influencent le gameplay de diverses manières.
+De nombreuses améliorations affectent votre combo, c'est-à-dire le nombre de pièces générées pour chaque brique cassée.
+Votre combo est affiché sur votre raquette. Votre score est affiché en haut à droite de l'écran.
+Attention à ne pas rater la balle, vous n'avez pas de vies supplémentaires !
+</p>
+
+<p>
+L'application devrait fonctionner hors ligne et être performante même sur les appareils bas de gamme.
+Elle est très légère et ne prend que très peu d'espace de stockage (environ 0,1 Mo).
+Si l'application est lente, activez le « mode rapide » dans les paramètres. 
+</p>
+
+<p>
+L'aide intégrée au jeu vous donnera plus d'informations sur la façon de jouer. Amusez-vous bien et venez partager vos meilleures performances sur notre serveur Discord !
+</p>

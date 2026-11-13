@@ -1,0 +1,4 @@
+app
+gradle
+# files edited by weblate, prettier would create conflicts
+src/i18n/*.json

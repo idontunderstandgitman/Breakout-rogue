@@ -1,0 +1,21 @@
+<p>
+Známy Breakout premenený na roguelike:
+Cieľom je počas 7 levelov chytiť čo najviac mincí.
+Mince vypadávajú z rozbitých dlaždíc.
+Poletujú, odrážajú a kotúľajú sa, a vy ich musíte chytať plošinou.
+Na konci levelov si vyberáte vylepšenia.
+K dispozícii je vyše 50 vylepšení, ktoré rôznymi spôsobmi menia priebeh hry.
+Rôzne vylepšenia majú vplyv na vaše combo, čo predstavuje počet mincí, ktoré vypadnú z každej rozbitej dlaždice.
+Výška vášho comba je zobrazená na plošine. Skóre je zobrazené v pravom hornom rohu obrazovky.
+A nezabúdajte odrážať loptičku, máte iba jeden život.
+</p>
+
+<p>
+Aplikácia by mala fungovať aj offline a plynulo aj na slabších zariadeniach.
+Je veľmi jednoduchá a nezaberá priveľa pamäte (približne 0,1 MB).
+Ak vám pôjde pomaly, v nastaveniach zapnite rýchly režim.
+</p>
+
+<p>
+Pomocník v hre vám bližšie poradí, ako hrať. Teraz sa už ponorte do zábavy a svoje najlepšie pokusy zdieľajte na našom Discorde.
+</p>

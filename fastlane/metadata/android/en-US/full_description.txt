@@ -1,0 +1,21 @@
+<p>
+This is a roguelike twist on the original Breakout formula:
+The goal is to catch as many coins as possible during 7 levels.
+Coins appear when you break bricks.
+They fly around, bounce and roll, and you need to catch them with your paddle.
+At the end of the level, you get to pick upgrades.
+There are 50+ different upgrades that impact the gameplay in various ways.
+Many upgrades will impact your combo, that's the number of coins spawned for each brick broken.
+Your "combo" is displayed on your paddle. Your score is displayed in the top right corner of the screen.
+Oh, and don't miss the ball, you don't have extra lives.
+</p>
+
+<p>
+The app should work offline and perform well even on low-end devices.
+It's very lean and does not take much storage space (Roughly 0.1MB).
+If the app runs slow, turn on "fast mode" in the settings.
+</p>
+
+<p>
+The in-game help will tell you more about how to play. Now go have some fun, and come share your best runs on our Discord.
+</p>

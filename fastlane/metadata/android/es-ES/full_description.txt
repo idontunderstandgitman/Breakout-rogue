@@ -1,0 +1,21 @@
+<p>
+Este es un giro roguelike en la fórmula original de Breakout :
+El objetivo es atrapar tantas monedas como sea posible durante 7 niveles.
+Las monedas aparecen cuando rompes ladrillos.
+Vuelan, rebotan, ruedan, y debes atraparlas con tu raqueta.
+Al final del nivel, puedes elegir mejoras.
+Hay más de 50 mejoras diferentes que afectan la jugabilidad de distintas maneras.
+Muchas mejoras impactan en tu combo, que es el número de monedas generadas por cada ladrillo roto.
+Tu "combo" se muestra en tu raqueta. Tu puntuación se muestra en la esquina superior derecha de la pantalla.
+Ah, y no pierdas la bola, no tienes vidas extra
+</p>
+
+<p>
+La aplicación funciona sin conexión y funciona bien incluso en dispositivos de gama baja.
+Es muy liviana y no utiliza mucho espacio (Aproximadamente 0.1MB).
+Si se ejecuta lento, activa el "modo rápido" en los ajustes.
+</p>
+
+<p>
+La ayuda dentro del juego te dirá más sobre como jugar. Ahora diviértete, y comparte tus mejores resultados en nuestro Discord.
+</p>

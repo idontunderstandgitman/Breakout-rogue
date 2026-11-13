@@ -1,0 +1,21 @@
+<p>
+To gra typu roguelike, będąca nową wersją klasycznej gry Breakout:
+Celem jest złapanie jak największej liczby monet na 7 poziomach.
+Monety pojawiają się po rozbiciu cegieł.
+Latają, odbijają się i toczą, a Twoim zadaniem jest złapanie ich łopatką.
+Na końcu poziomu możesz wybrać ulepszenia.
+Dostępnych jest ponad 50 różnych ulepszeń, które na różne sposoby wpływają na rozgrywkę.
+Wiele ulepszeń wpływa na twoje combo, czyli liczbę monet pojawiających się za każdą rozbitą cegłę.
+Twoje „combo” jest wyświetlane na łopatce. Twój wynik jest wyświetlany w prawym górnym rogu ekranu.
+Aha, i nie przegap piłki, nie masz dodatkowych żyć.
+</p>
+
+<p>
+Aplikacja powinna działać w trybie offline i dobrze radzić sobie nawet na słabszych urządzeniach.
+Jest bardzo lekka i nie zajmuje dużo miejsca (około 0,1 MB).
+Jeśli aplikacja działa wolno, włącz „tryb szybki” w ustawieniach.
+</p>
+
+<p>
+Pomoc w grze powie Ci więcej o tym, jak grać. Teraz baw się dobrze i podziel się swoimi najlepszymi wynikami na naszym Discordzie.
+</p>

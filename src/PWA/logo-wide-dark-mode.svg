@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="574.98383mm"
+   height="139.0222mm"
+   viewBox="0 0 574.98383 139.0222"
+   version="1.1"
+   id="svg593"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="logo-wide-dark-mode.svg"
+   inkscape:export-filename="logo-wide.png"
+   inkscape:export-xdpi="95.449562"
+   inkscape:export-ydpi="95.449562"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview595"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.39954756"
+     inkscape:cx="938.56161"
+     inkscape:cy="645.73039"
+     inkscape:window-width="958"
+     inkscape:window-height="1023"
+     inkscape:window-x="2880"
+     inkscape:window-y="29"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs590" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(214.69261,-32.6802)">
+    <g
+       id="g672"
+       transform="matrix(0.2128873,0,0,0.2128873,244.04351,48.969476)">
+      <path
+         id="rect320"
+         d="M 0.0010349703 0.0007937861 L 0.0010349703 100.00029 L 200.00003 100.00029 L 200.00003 199.99979 L 299.99953 199.99979 L 299.99953 79.629484 L 299.99953 0.0007937861 L 0.0010349703 0.0007937861 z M 200.00003 199.99979 L 100.00053 199.99979 L 100.00053 400.00121 L 200.00003 400.00121 L 200.00003 199.99979 z "
+         style="fill:#6262ea;fill-opacity:1" />
+      <path
+         id="rect326"
+         style="stroke-width:1.07444;fill:#5da3ea;fill-opacity:1"
+         d="M 299.99953 100.00029 L 299.99953 199.99979 L 200.00003 199.99979 L 200.00003 299.99929 L 299.99953 299.99929 L 299.99953 400.00121 L 200.00003 400.00121 L 200.00003 500.00071 L 500.00095 500.00071 L 500.00095 400.00121 L 399.99903 400.00121 L 399.99903 100.00029 L 299.99953 100.00029 z " />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:90.768px;font-family:Loma;-inkscape-font-specification:'Loma Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.630335;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke;stop-color:#000000"
+       x="-200.40846"
+       y="136.02986"
+       id="text834"><tspan
+         sodipodi:role="line"
+         id="tspan832"
+         x="-200.40846"
+         y="136.02986"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:90.768px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.630335">Breakout</tspan></text>
+  </g>
+</svg>

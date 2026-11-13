@@ -1,0 +1,21 @@
+<p>
+Tohle je roguelike variace na původní formát Breakout:
+Cílem je chytit co nejvíce mincí dokážete v průběhu 7 úrovní.
+Mince se objevují, když rozbíjíte cihličky.
+Poletují kolem, odrážejí se a kutálejí a vy je musíte zachytit svou pálkou.
+Po skončení úrovně si můžete vybrat vylepšení.
+Existuje přes 50 různých vylepšení, která různým způsobem ovlivňují hru.
+Mnoho vylepšení má vliv na vaše kombo, což je počet mincí, které se objeví za každou rozbitou cihličku.
+Vaše „kombo“ se zobrazuje na vaší pálce. Vaše skóre se zobrazuje v pravém horním rohu obrazovky.
+Ach — a nemiňte míč, žádné další životy nemáte.
+</p>
+
+<p>
+Aplikace by měla fungovat offline a běžet dobře i na slabých zařízeních.
+Je velmi štíhlá a nezabírá příliš prostoru (zhruba 0,1 MB).
+Pokud aplikace běží pomalu, zapněte si „základní režim“ v nastavení.
+</p>
+
+<p>
+Nápověda ve hře vám prozradí více o tom, jak hrát. Teď se běžte bavit a zajděte se podělit o své nejlepší průchody hrou na náš Discord.
+</p>

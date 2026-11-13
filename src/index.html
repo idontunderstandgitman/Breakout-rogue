@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Breakout 71</title>
+    <meta
+      name="description"
+      content="A breakout game with roguelite mechanics. Break bricks, catch coins, pick upgrades, repeat. Play for free on mobile and desktop."
+    />
+    <link rel="manifest" href="./PWA/manifest.json" />
+    <meta name="theme-color" content="#000000" id="themeColor" />
+
+    <style>
+      @import "game.less";
+    </style>
+    <link rel="icon" href="data-url:./PWA/icon.svg" />
+  </head>
+  <body>
+    <button id="menu">☰ <span id="menuLabel">menu</span></button>
+    <button id="score"></button>
+    <div id="stats" style="display: none"></div>
+
+    <canvas id="game"></canvas>
+    <div id="popup">
+      <button id="close-modale"></button>
+    </div>
+    <div id="tooltip" style="display: none"></div>
+    <div id="tooltip_mobile" style="display: none"></div>
+    <script type="module">
+      import "./game.ts";
+    </script>
+  </body>
+</html>

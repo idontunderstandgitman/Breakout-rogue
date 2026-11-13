@@ -1,0 +1,21 @@
+<p>
+Esta é uma reimaginação do Breakout original em um estilo roguelike:
+Seu objetivo é coletar o máximo de moedas possível durante 7 níveis.
+Moedas aparecem quando você quebra blocos.
+Elas voam, quicam e rolam, e você tem que pegá-las com a sua raquete.
+No final de cada nível, você pode escolher melhorias.
+Existem mais de 50 melhorias diferentes que impactam a jogatina de várias formas.
+Várias melhorias vão afetar o seu combo, o número de moedas recebidas por cada bloco quebrado.
+Seu "combo" é mostrado na sua raquete. Sua pontuação é mostrada no canto superior direito da tela.
+Ah, e não perca a bola, você não tem vidas extras.
+</p>
+
+<p>
+O app pode funcionar offline e até ter uma boa performance em dispositivos de baixo custo.
+É bem leve e não toma muito espaço de armazenamento (Cerca de 0.1MB).
+Se o app rodar devagar, ative o "modo rápido" nas configurações.
+</p>
+
+<p>
+O menu de ajuda irá te explicar mais sobre como jogar. Agora vá se divertir, e compartilhe suas melhores partidas no nosso Discord.
+</p>

@@ -1,0 +1,3157 @@
+{
+  "71 mini": {
+    "minScore": 0,
+    "required": [],
+    "forbidden": []
+  },
+  "Butterfly": {
+    "minScore": 0,
+    "required": [],
+    "forbidden": []
+  },
+  "Castle": {
+    "minScore": 0,
+    "required": [],
+    "forbidden": []
+  },
+  "Creeper": {
+    "minScore": 0,
+    "required": [],
+    "forbidden": []
+  },
+  "Stairs": {
+    "minScore": 0,
+    "required": [],
+    "forbidden": []
+  },
+  "Dots": {
+    "minScore": 0,
+    "required": [],
+    "forbidden": []
+  },
+  "Lines": {
+    "minScore": 0,
+    "required": [],
+    "forbidden": []
+  },
+  "Heart": {
+    "minScore": 0,
+    "required": [],
+    "forbidden": []
+  },
+  "Swiss": {
+    "minScore": 0,
+    "required": [],
+    "forbidden": []
+  },
+  "Germany": {
+    "minScore": 0,
+    "required": [],
+    "forbidden": []
+  },
+  "France": {
+    "minScore": 100,
+    "required": [],
+    "forbidden": []
+  },
+  "Smiley": {
+    "minScore": 200,
+    "required": [],
+    "forbidden": []
+  },
+  "Labyrinthe": {
+    "minScore": 300,
+    "required": [],
+    "forbidden": []
+  },
+  "Temple": {
+    "minScore": 400,
+    "required": [],
+    "forbidden": []
+  },
+  "Pacman": {
+    "minScore": 500,
+    "required": [],
+    "forbidden": []
+  },
+  "Ship": {
+    "minScore": 600,
+    "required": [],
+    "forbidden": []
+  },
+  "We come in peace": {
+    "minScore": 700,
+    "required": [],
+    "forbidden": []
+  },
+  "Space mushroom": {
+    "minScore": 800,
+    "required": [],
+    "forbidden": []
+  },
+  "Wololo": {
+    "minScore": 900,
+    "required": [],
+    "forbidden": []
+  },
+  "Small heart": {
+    "minScore": 1000,
+    "required": [],
+    "forbidden": []
+  },
+  "Eye": {
+    "minScore": 1100,
+    "required": ["streak_shots"],
+    "forbidden": ["base_combo"]
+  },
+  "Enderman": {
+    "minScore": 1200,
+    "required": ["streak_shots"],
+    "forbidden": ["viscosity"]
+  },
+  "Mushroom": {
+    "minScore": 1300,
+    "required": ["streak_shots"],
+    "forbidden": ["base_combo"]
+  },
+  "Tulip": {
+    "minScore": 1400,
+    "required": ["viscosity"],
+    "forbidden": ["left_is_lava"]
+  },
+  "Chain": {
+    "minScore": 1500,
+    "required": ["left_is_lava"],
+    "forbidden": ["right_is_lava"]
+  },
+  "Marion": {
+    "minScore": 1600,
+    "required": ["viscosity"],
+    "forbidden": ["left_is_lava"]
+  },
+  "Renan": {
+    "minScore": 1700,
+    "required": ["viscosity"],
+    "forbidden": ["skip_last"]
+  },
+  "Violet Pairs": {
+    "minScore": 1800,
+    "required": ["skip_last"],
+    "forbidden": ["base_combo"]
+  },
+  "Red Cups": {
+    "minScore": 1900,
+    "required": ["skip_last"],
+    "forbidden": ["viscosity"]
+  },
+  "Cactus": {
+    "minScore": 2000,
+    "required": ["right_is_lava"],
+    "forbidden": ["skip_last"]
+  },
+  "Sunny Face": {
+    "minScore": 2100,
+    "required": ["streak_shots", "base_combo"],
+    "forbidden": ["smaller_puck", "skip_last"]
+  },
+  "Mountain": {
+    "minScore": 2200,
+    "required": ["smaller_puck", "streak_shots"],
+    "forbidden": ["left_is_lava", "skip_last"]
+  },
+  "Dollar": {
+    "minScore": 2300,
+    "required": ["pierce", "smaller_puck"],
+    "forbidden": ["left_is_lava", "base_combo"]
+  },
+  "Waves": {
+    "minScore": 2400,
+    "required": ["left_is_lava", "smaller_puck"],
+    "forbidden": ["picky_eater", "pierce"]
+  },
+  "Box": {
+    "minScore": 2500,
+    "required": ["left_is_lava", "picky_eater"],
+    "forbidden": ["smaller_puck", "base_combo"]
+  },
+  "Rose": {
+    "minScore": 2600,
+    "required": ["compound_interest", "picky_eater"],
+    "forbidden": ["left_is_lava", "base_combo"]
+  },
+  "Time": {
+    "minScore": 2700,
+    "required": ["picky_eater", "right_is_lava"],
+    "forbidden": ["pierce", "left_is_lava"]
+  },
+  "Watermelon": {
+    "minScore": 2800,
+    "required": ["hot_start", "base_combo"],
+    "forbidden": ["pierce", "right_is_lava"]
+  },
+  "Worms": {
+    "minScore": 2900,
+    "required": ["picky_eater", "hot_start"],
+    "forbidden": ["right_is_lava", "pierce"]
+  },
+  "Ocean Sunrise": {
+    "minScore": 3000,
+    "required": ["smaller_puck", "hot_start"],
+    "forbidden": ["streak_shots", "telekinesis"]
+  },
+  "Crosses": {
+    "minScore": 3100,
+    "required": ["pierce", "sapper"],
+    "forbidden": ["smaller_puck", "compound_interest"]
+  },
+  "Negative space": {
+    "minScore": 3200,
+    "required": ["left_is_lava", "smaller_puck"],
+    "forbidden": ["right_is_lava", "hot_start"]
+  },
+  "UK": {
+    "minScore": 3300,
+    "required": ["right_is_lava", "left_is_lava"],
+    "forbidden": ["base_combo", "smaller_puck"]
+  },
+  "Greece": {
+    "minScore": 3400,
+    "required": ["left_is_lava", "right_is_lava"],
+    "forbidden": ["telekinesis", "hot_start"]
+  },
+  "Russia": {
+    "minScore": 3500,
+    "required": ["compound_interest", "bigger_explosions"],
+    "forbidden": ["pierce"]
+  },
+  "Ukraine": {
+    "minScore": 3600,
+    "required": ["pierce", "sapper"],
+    "forbidden": ["base_combo", "bigger_explosions"]
+  },
+  "Poland": {
+    "minScore": 3700,
+    "required": ["viscosity", "picky_eater"],
+    "forbidden": ["skip_last", "pierce"]
+  },
+  "Yellow 71": {
+    "minScore": 3800,
+    "required": ["base_combo", "viscosity"],
+    "forbidden": ["picky_eater", "skip_last"]
+  },
+  "71 on white": {
+    "minScore": 3900,
+    "required": ["viscosity", "picky_eater"],
+    "forbidden": ["compound_interest", "skip_last"]
+  },
+  "Blue 71": {
+    "minScore": 4000,
+    "required": ["compound_interest", "pierce_color"],
+    "forbidden": ["left_is_lava", "viscosity"]
+  },
+  "Seventy one": {
+    "minScore": 4100,
+    "required": ["viscosity", "base_combo"],
+    "forbidden": ["left_is_lava", "pierce_color"]
+  },
+  "B71": {
+    "minScore": 4200,
+    "required": ["skip_last", "viscosity"],
+    "forbidden": ["telekinesis", "left_is_lava"]
+  },
+  "Pig": {
+    "minScore": 4300,
+    "required": ["skip_last", "viscosity"],
+    "forbidden": ["ball_repulse_ball", "telekinesis"]
+  },
+  "Big Pig": {
+    "minScore": 4400,
+    "required": ["pierce", "sapper"],
+    "forbidden": ["skip_last", "compound_interest"]
+  },
+  "Donkey Kong": {
+    "minScore": 4500,
+    "required": ["ball_attract_ball", "right_is_lava"],
+    "forbidden": ["bigger_explosions", "skip_last"]
+  },
+  "Banana": {
+    "minScore": 4600,
+    "required": ["right_is_lava", "soft_reset"],
+    "forbidden": ["base_combo", "skip_last"]
+  },
+  "Fox": {
+    "minScore": 4700,
+    "required": ["ball_repulse_ball", "puck_repulse_ball"],
+    "forbidden": ["right_is_lava", "skip_last"]
+  },
+  "Kiwi": {
+    "minScore": 4800,
+    "required": ["base_combo", "sapper"],
+    "forbidden": ["compound_interest", "pierce"]
+  },
+  "Baby Dog": {
+    "minScore": 4900,
+    "required": ["bigger_explosions", "pierce"],
+    "forbidden": ["compound_interest"]
+  },
+  "dog 21": {
+    "minScore": 5000,
+    "required": ["ball_attract_ball", "respawn"],
+    "forbidden": ["telekinesis", "right_is_lava"]
+  },
+  "A": {
+    "minScore": 5100,
+    "required": ["telekinesis", "base_combo", "sturdy_bricks"],
+    "forbidden": ["hot_start", "top_is_lava", "bigger_puck"]
+  },
+  "B": {
+    "minScore": 5200,
+    "required": ["pierce", "hot_start", "telekinesis"],
+    "forbidden": ["sapper", "ball_repulse_ball", "puck_repulse_ball"]
+  },
+  "C": {
+    "minScore": 5300,
+    "required": ["hot_start", "telekinesis", "compound_interest"],
+    "forbidden": ["top_is_lava", "bigger_puck", "bigger_explosions"]
+  },
+  "D": {
+    "minScore": 5400,
+    "required": ["hot_start", "bigger_explosions", "ball_attract_ball"],
+    "forbidden": ["telekinesis", "soft_reset", "compound_interest"]
+  },
+  "e": {
+    "minScore": 5500,
+    "required": ["respawn", "hot_start", "telekinesis"],
+    "forbidden": ["ball_attract_ball", "top_is_lava", "bigger_puck"]
+  },
+  "Elephant": {
+    "minScore": 5600,
+    "required": ["ball_repulse_ball", "puck_repulse_ball", "soft_reset"],
+    "forbidden": ["base_combo", "sapper", "telekinesis"]
+  },
+  "Orca": {
+    "minScore": 5700,
+    "required": ["pierce", "sapper", "respawn"],
+    "forbidden": ["concave_puck", "telekinesis", "compound_interest"]
+  },
+  "Shark": {
+    "minScore": 5800,
+    "required": ["bigger_explosions", "compound_interest", "base_combo"],
+    "forbidden": ["right_is_lava", "concave_puck", "ball_attract_ball"]
+  },
+  "Bird": {
+    "minScore": 5900,
+    "required": ["right_is_lava", "concave_puck", "sturdy_bricks"],
+    "forbidden": ["ball_attract_ball", "streak_shots", "soft_reset"]
+  },
+  "Tux": {
+    "minScore": 6000,
+    "required": ["pierce", "coin_magnet", "bigger_puck"],
+    "forbidden": ["sapper", "top_is_lava", "helium"]
+  },
+  "Armenia": {
+    "minScore": 6100,
+    "required": ["top_is_lava", "respawn", "bigger_puck"],
+    "forbidden": ["base_combo", "coin_magnet", "ball_repulse_ball"]
+  },
+  "Austria": {
+    "minScore": 6200,
+    "required": ["top_is_lava", "telekinesis", "bigger_puck"],
+    "forbidden": ["coin_magnet", "viscosity", "unbounded"]
+  },
+  "Benin": {
+    "minScore": 6300,
+    "required": ["telekinesis", "right_is_lava", "bigger_explosions"],
+    "forbidden": ["viscosity", "top_is_lava", "unbounded"]
+  },
+  "Botswana": {
+    "minScore": 6400,
+    "required": ["viscosity", "telekinesis", "unbounded"],
+    "forbidden": ["sturdy_bricks", "soft_reset", "right_is_lava"]
+  },
+  "Bulgaria": {
+    "minScore": 6500,
+    "required": ["helium", "puck_repulse_ball", "unbounded"],
+    "forbidden": ["ball_repulse_ball", "viscosity", "pierce"]
+  },
+  "Canada": {
+    "minScore": 6600,
+    "required": ["skip_last", "respawn", "base_combo"],
+    "forbidden": ["asceticism", "unbounded", "telekinesis"]
+  },
+  "Chad": {
+    "minScore": 6700,
+    "required": ["compound_interest", "bigger_explosions", "skip_last"],
+    "forbidden": ["concave_puck", "streak_shots", "telekinesis"]
+  },
+  "China": {
+    "minScore": 6800,
+    "required": ["nbricks", "concave_puck", "streak_shots"],
+    "forbidden": ["ball_attract_ball", "skip_last", "base_combo"]
+  },
+  "Colombia": {
+    "minScore": 6900,
+    "required": ["streak_shots", "smaller_puck", "concave_puck"],
+    "forbidden": ["puck_repulse_ball", "ball_repulse_ball", "sapper"]
+  },
+  "Republic of the Congo": {
+    "minScore": 7000,
+    "required": ["ball_repulse_ball", "puck_repulse_ball", "coin_magnet"],
+    "forbidden": ["bigger_puck", "top_is_lava", "skip_last"]
+  },
+  "Côte d'Ivoire": {
+    "minScore": 7100,
+    "required": ["coin_magnet", "bigger_puck", "top_is_lava"],
+    "forbidden": ["base_combo", "etherealcoins", "telekinesis"]
+  },
+  "Denmark": {
+    "minScore": 7200,
+    "required": ["bigger_explosions", "coin_magnet", "etherealcoins"],
+    "forbidden": ["respawn", "bigger_puck", "top_is_lava"]
+  },
+  "El Salvador": {
+    "minScore": 7300,
+    "required": ["bigger_puck", "top_is_lava", "helium"],
+    "forbidden": ["pierce", "coin_magnet", "sapper"]
+  },
+  "Egypt": {
+    "minScore": 7400,
+    "required": ["zen", "top_is_lava", "soft_reset"],
+    "forbidden": ["bigger_puck", "telekinesis", "puck_repulse_ball"]
+  },
+  "Estonia": {
+    "minScore": 7500,
+    "required": ["zen", "telekinesis", "hot_start"],
+    "forbidden": ["top_is_lava", "bigger_puck", "concave_puck"]
+  },
+  "Finland": {
+    "minScore": 7600,
+    "required": ["concave_puck", "hot_start", "telekinesis"],
+    "forbidden": ["zen", "compound_interest", "base_combo"]
+  },
+  "Gabon": {
+    "minScore": 7700,
+    "required": ["respawn", "ball_attract_ball", "zen"],
+    "forbidden": ["streak_shots", "sturdy_bricks", "hot_start"]
+  },
+  "Georgia": {
+    "minScore": 7800,
+    "required": ["helium", "zen", "smaller_puck"],
+    "forbidden": ["pierce", "telekinesis", "sapper"]
+  },
+  "Guinea": {
+    "minScore": 7900,
+    "required": ["zen", "nbricks", "smaller_puck"],
+    "forbidden": ["pierce_color", "left_is_lava", "ball_repulse_ball"]
+  },
+  "Indonesia": {
+    "minScore": 8000,
+    "required": ["trampoline", "zen", "right_is_lava"],
+    "forbidden": ["nbricks", "coin_magnet", "hot_start"]
+  },
+  "Pingwin": {
+    "minScore": 8100,
+    "required": ["zen", "compound_interest", "pierce"],
+    "forbidden": ["right_is_lava", "sturdy_bricks", "helium"]
+  },
+  "Dog 8": {
+    "minScore": 8200,
+    "required": ["zen", "ball_attract_ball", "coin_magnet"],
+    "forbidden": ["sacrifice", "sturdy_bricks", "bigger_puck"]
+  },
+  "Sunglasses": {
+    "minScore": 8300,
+    "required": ["zen", "sacrifice", "coin_magnet"],
+    "forbidden": ["respawn", "bigger_puck", "top_is_lava"]
+  },
+  "Balloon": {
+    "minScore": 8400,
+    "required": ["soft_reset", "coin_magnet", "zen"],
+    "forbidden": ["concave_puck", "sacrifice", "bigger_puck"]
+  },
+  "Opening": {
+    "minScore": 8500,
+    "required": ["streak_shots", "bigger_puck", "top_is_lava"],
+    "forbidden": ["zen", "etherealcoins", "coin_magnet"]
+  },
+  "Stripes": {
+    "minScore": 8600,
+    "required": ["helium", "base_combo", "zen"],
+    "forbidden": ["top_is_lava", "ball_attract_ball", "bigger_puck"]
+  },
+  "You are here": {
+    "minScore": 8700,
+    "required": ["zen", "forgiving", "telekinesis"],
+    "forbidden": ["smaller_puck", "viscosity", "top_is_lava"]
+  },
+  "Gear": {
+    "minScore": 8800,
+    "required": ["pierce_color", "telekinesis", "left_is_lava"],
+    "forbidden": ["unbounded", "respawn", "zen"]
+  },
+  "Play": {
+    "minScore": 8900,
+    "required": ["zen", "right_is_lava", "skip_last"],
+    "forbidden": ["ball_attracts_coins", "telekinesis", "unbounded"]
+  },
+  "City": {
+    "minScore": 9000,
+    "required": ["passive_income", "asceticism", "soft_reset"],
+    "forbidden": ["hot_start", "ball_repulse_ball", "base_combo"]
+  },
+  "Wiggle": {
+    "minScore": 9100,
+    "required": ["right_is_lava", "trampoline", "ball_attracts_coins"],
+    "forbidden": ["sturdy_bricks", "hot_start", "compound_interest"]
+  },
+  "Graph": {
+    "minScore": 9200,
+    "required": ["hot_start", "shocks", "sapper"],
+    "forbidden": ["pierce", "ball_attract_ball", "ball_attracts_coins"]
+  },
+  "Lightbulb": {
+    "minScore": 9300,
+    "required": ["hot_start", "passive_income", "helium"],
+    "forbidden": ["trampoline", "ball_attracts_coins", "pierce"]
+  },
+  "Note": {
+    "minScore": 9400,
+    "required": ["ball_repulse_ball", "puck_repulse_ball", "nbricks"],
+    "forbidden": ["hot_start", "respawn", "etherealcoins"]
+  },
+  "Rocket": {
+    "minScore": 9500,
+    "required": ["etherealcoins", "soft_reset", "asceticism"],
+    "forbidden": ["coin_magnet", "hot_start", "bigger_puck"]
+  },
+  "Abstract": {
+    "minScore": 9600,
+    "required": ["bigger_explosions", "compound_interest", "etherealcoins"],
+    "forbidden": ["coin_magnet", "passive_income", "nbricks"]
+  },
+  "Fingerprint": {
+    "minScore": 9700,
+    "required": ["pierce", "sapper", "shocks"],
+    "forbidden": ["base_combo", "implosions", "helium"]
+  },
+  "Leaf": {
+    "minScore": 9800,
+    "required": ["concave_puck", "sacrifice", "puck_repulse_ball"],
+    "forbidden": ["coin_magnet", "ball_repulse_ball"]
+  },
+  "Abstract 2": {
+    "minScore": 9900,
+    "required": ["coin_magnet", "streak_shots", "sacrifice"],
+    "forbidden": ["bigger_puck", "top_is_lava", "right_is_lava"]
+  },
+  "Abstract 3": {
+    "minScore": 10000,
+    "required": ["sacrifice", "nbricks", "etherealcoins"],
+    "forbidden": ["shocks", "sapper", "asceticism"]
+  },
+  "Abstract 4": {
+    "minScore": 10100,
+    "required": ["trampoline", "bigger_explosions", "sacrifice"],
+    "forbidden": ["ball_attracts_coins", "ghost_coins", "ball_attract_ball"]
+  },
+  "Abstract 5": {
+    "minScore": 10200,
+    "required": ["ball_attracts_coins", "implosions", "forgiving"],
+    "forbidden": ["viscosity", "base_combo", "unbounded"]
+  },
+  "Abstract 6": {
+    "minScore": 10300,
+    "required": ["puck_repulse_ball", "ball_repulse_ball", "forgiving"],
+    "forbidden": ["viscosity", "unbounded", "passive_income"]
+  },
+  "Hemiola": {
+    "minScore": 10400,
+    "required": ["limitless", "unbounded", "viscosity"],
+    "forbidden": ["right_is_lava", "forgiving", "sturdy_bricks"]
+  },
+  "Obigre": {
+    "minScore": 10500,
+    "required": ["sapper", "shocks", "soft_reset"],
+    "forbidden": ["bigger_explosions", "pierce", "skip_last"]
+  },
+  "Noodlemire": {
+    "minScore": 10600,
+    "required": ["skip_last", "concave_puck", "passive_income"],
+    "forbidden": ["ball_attract_ball", "side_flip", "side_kick"]
+  },
+  "Bearded axe": {
+    "minScore": 10700,
+    "required": ["base_combo", "streak_shots", "side_flip"],
+    "forbidden": ["side_kick", "implosions", "concave_puck"]
+  },
+  "Lebanon": {
+    "minScore": 10800,
+    "required": ["side_kick", "side_flip", "etherealcoins"],
+    "forbidden": ["smaller_puck", "streak_shots", "trampoline"]
+  },
+  "Spain": {
+    "minScore": 10900,
+    "required": ["smaller_puck", "passive_income", "compound_interest"],
+    "forbidden": ["fountain_toss", "side_kick", "side_flip"]
+  },
+  "Uzbekistan": {
+    "minScore": 11000,
+    "required": ["picky_eater", "ghost_coins", "bigger_explosions"],
+    "forbidden": ["base_combo", "clairvoyant", "implosions"]
+  },
+  "Pakistan": {
+    "minScore": 11100,
+    "required": ["nbricks", "ghost_coins", "trampoline"],
+    "forbidden": ["picky_eater", "clairvoyant", "corner_shot"]
+  },
+  "Korea": {
+    "minScore": 11200,
+    "required": [
+      "puck_repulse_ball",
+      "ball_attracts_coins",
+      "ball_repulse_ball"
+    ],
+    "forbidden": ["ghost_coins", "picky_eater", "etherealcoins"]
+  },
+  "Chile": {
+    "minScore": 11300,
+    "required": ["shocks", "sapper", "pierce"],
+    "forbidden": ["etherealcoins", "ball_attracts_coins", "ghost_coins"]
+  },
+  "Türkiye": {
+    "minScore": 11400,
+    "required": ["compound_interest", "fountain_toss", "concave_puck"],
+    "forbidden": ["bigger_explosions", "superhot", "respawn"]
+  },
+  "Taj Mahal": {
+    "minScore": 11500,
+    "required": ["asceticism", "soft_reset", "streak_shots"],
+    "forbidden": ["concave_puck", "ball_attract_ball", "hot_start"]
+  },
+  "Abstract 7": {
+    "minScore": 11600,
+    "required": ["hot_start", "nbricks", "streak_shots"],
+    "forbidden": ["trampoline", "smaller_puck", "superhot"]
+  },
+  "Abstract 9": {
+    "minScore": 11700,
+    "required": ["implosions", "smaller_puck", "right_is_lava"],
+    "forbidden": ["base_combo", "sturdy_bricks", "hot_start"]
+  },
+  "Crosshair": {
+    "minScore": 11800,
+    "required": ["pierce", "pierce_color", "left_is_lava"],
+    "forbidden": ["sapper", "transparency", "shocks"]
+  },
+  "Abstract 10": {
+    "minScore": 11900,
+    "required": ["transparency", "ball_attract_ball", "left_is_lava"],
+    "forbidden": ["pierce_color", "rainbow", "passive_income"]
+  },
+  "Face": {
+    "minScore": 12000,
+    "required": ["rainbow", "corner_shot", "bricks_attract_coins"],
+    "forbidden": ["base_combo", "clairvoyant", "respawn"]
+  },
+  "Eiffel tower": {
+    "minScore": 12100,
+    "required": ["shocks", "sapper", "clairvoyant"],
+    "forbidden": ["passive_income", "picky_eater", "pierce"]
+  },
+  "Abstract 11": {
+    "minScore": 12200,
+    "required": ["picky_eater", "nbricks", "addiction"],
+    "forbidden": ["minefield", "sturdy_bricks", "ghost_coins"]
+  },
+  "Abstract 12": {
+    "minScore": 12300,
+    "required": ["ghost_coins", "sacrifice", "ball_attracts_coins"],
+    "forbidden": ["concave_puck", "picky_eater", "compound_interest"]
+  },
+  "Abstract 13": {
+    "minScore": 12400,
+    "required": ["ball_attract_ball", "streak_shots", "ghost_coins"],
+    "forbidden": ["passive_income", "sacrifice", "picky_eater"]
+  },
+  "Abstract 14": {
+    "minScore": 12500,
+    "required": ["smaller_puck", "asceticism", "rainbow"],
+    "forbidden": ["bricks_attract_ball", "soft_reset", "respawn"]
+  },
+  "S": {
+    "minScore": 12600,
+    "required": ["pierce", "sapper", "shocks"],
+    "forbidden": ["etherealcoins", "trampoline", "pierce_color"]
+  },
+  "Abstract 15": {
+    "minScore": 12700,
+    "required": ["forgiving", "viscosity"],
+    "forbidden": ["fountain_toss", "transparency", "left_is_lava"]
+  },
+  "Mario!": {
+    "minScore": 12800,
+    "required": ["unbounded", "limitless", "viscosity"],
+    "forbidden": ["forgiving", "skip_last", "ball_attract_ball"]
+  },
+  "Minesweeper": {
+    "minScore": 12900,
+    "required": ["ottawa_treaty", "skip_last", "unbounded"],
+    "forbidden": ["limitless", "viscosity", "forgiving"]
+  },
+  "Target": {
+    "minScore": 13000,
+    "required": ["skip_last", "implosions", "base_combo"],
+    "forbidden": ["etherealcoins", "reach", "three_cushion"]
+  },
+  "The Boys": {
+    "minScore": 13100,
+    "required": ["concave_puck", "respawn", "rainbow"],
+    "forbidden": ["reach", "corner_shot", "skip_last"]
+  },
+  "A Very Dangerous High-Five": {
+    "minScore": 13200,
+    "required": ["side_kick", "rainbow", "corner_shot"],
+    "forbidden": ["streak_shots", "reach", "clairvoyant"]
+  },
+  "Blinky": {
+    "required": ["clairvoyant", "reach", "double_or_nothing"],
+    "forbidden": ["nbricks", "corner_shot", "smaller_puck"],
+    "minScore": 13300
+  },
+  "Fish": {
+    "required": ["reach", "pierce", "picky_eater"],
+    "forbidden": ["sapper", "shocks", "ghost_coins"],
+    "minScore": 13400
+  },
+  "Spider": {
+    "required": ["transparency", "ghost_coins", "left_is_lava"],
+    "forbidden": ["pierce_color", "reach", "sticky_coins"],
+    "minScore": 13500
+  },
+  "Gliders": {
+    "required": ["trampoline", "superhot", "bricks_attract_ball"],
+    "forbidden": ["reach", "rainbow", "ghost_coins"],
+    "minScore": 13600
+  },
+  "Lone island": {
+    "required": ["reach", "passive_income", "happy_family"],
+    "forbidden": ["bigger_explosions", "wrap_right", "ghost_coins"],
+    "minScore": 13700
+  },
+  "Spacewyrm Jon": {
+    "required": ["nbricks", "reach", "three_cushion"],
+    "forbidden": ["happy_family", "metamorphosis", "hot_start"],
+    "minScore": 13800
+  },
+  "Taijitu": {
+    "required": ["hot_start", "puck_repulse_ball", "ball_repulse_ball"],
+    "forbidden": ["helium", "pierce", "etherealcoins"],
+    "minScore": 13900
+  },
+  "Egg pan": {
+    "required": ["hot_start", "streak_shots", "implosions"],
+    "forbidden": ["concave_puck", "bricks_attract_coins", "base_combo"],
+    "minScore": 14000
+  },
+  "Inception": {
+    "required": ["hot_start", "wrap_left", "smaller_puck"],
+    "forbidden": ["streak_shots", "superhot", "bricks_attract_coins"],
+    "minScore": 14100
+  },
+  "Chess": {
+    "required": ["respawn", "wrap_left", "sapper"],
+    "forbidden": ["shocks", "metamorphosis", "pierce"],
+    "minScore": 14200
+  },
+  "italy": {
+    "required": ["sticky_coins", "pierce_color", "left_is_lava"],
+    "forbidden": ["transparency", "etherealcoins", "three_cushion"],
+    "minScore": 14300
+  },
+  "Nuclear Throne": {
+    "required": [],
+    "forbidden": [],
+    "minScore": 0
+  },
+  "utc": {
+    "required": ["ball_attracts_coins", "corner_shot", "ball_repulse_ball"],
+    "forbidden": ["puck_repulse_ball", "clairvoyant", "nbricks"],
+    "minScore": 14400
+  },
+  "Bzh": {
+    "required": ["clairvoyant", "addiction", "corner_shot"],
+    "forbidden": ["minefield", "base_combo", "picky_eater"],
+    "minScore": 14500
+  },
+  "FTL": {
+    "required": ["bigger_explosions", "minefield", "happy_family"],
+    "forbidden": ["picky_eater", "trampoline", "clairvoyant"],
+    "minScore": 14600
+  },
+  "Nova drift": {
+    "required": ["rainbow", "ghost_coins", "sacrifice"],
+    "forbidden": ["pierce", "wrap_right"],
+    "minScore": 14700
+  },
+  "Heat Signature": {
+    "required": ["extra_life", "ghost_coins", "sturdy_bricks"],
+    "forbidden": ["picky_eater", "puck_repulse_ball", "sacrifice"],
+    "minScore": 14800
+  },
+  "Noita": {
+    "required": ["nbricks", "ghost_coins", "golden_goose"],
+    "forbidden": ["forgiving", "picky_eater", "viscosity"],
+    "minScore": 14900
+  },
+  "Enter the gungeon": {
+    "required": ["shocks", "sapper", "smaller_puck"],
+    "forbidden": ["pierce", "implosions", "wrap_right"],
+    "minScore": 15000
+  },
+  "ZERO Sievert": {
+    "required": ["ottawa_treaty", "superhot", "forgiving"],
+    "forbidden": ["sticky_coins", "pierce_color", "viscosity"],
+    "minScore": 15100
+  },
+  "Factorio": {
+    "required": ["limitless", "unbounded", "viscosity"],
+    "forbidden": ["passive_income", "right_is_lava", "forgiving"],
+    "minScore": 15200
+  },
+  "Brigador": {
+    "required": ["puck_repulse_ball", "respawn", "soft_reset"],
+    "forbidden": ["ball_repulse_ball", "skip_last", "unbounded"],
+    "minScore": 15300
+  },
+  "Teleglitch": {
+    "required": ["happy_family", "skip_last", "ball_attracts_coins"],
+    "forbidden": ["side_flip", "side_kick", "corner_shot"],
+    "minScore": 15400
+  },
+  "Big turtle": {
+    "required": [],
+    "forbidden": [],
+    "minScore": 0
+  },
+  "Big yoyo": {
+    "required": [],
+    "forbidden": [],
+    "minScore": 0
+  },
+  "Piñata": {
+    "required": ["bricks_attract_ball", "wrap_right", "corner_shot"],
+    "forbidden": ["clairvoyant", "fountain_toss", "picky_eater"],
+    "minScore": 15700
+  },
+  "Zen monk": {
+    "required": ["respawn", "rainbow", "golden_goose"],
+    "forbidden": ["clairvoyant", "extra_life"],
+    "minScore": 15800
+  },
+  "Lotus flower": {
+    "required": ["picky_eater", "bricks_attract_coins", "ghost_coins"],
+    "forbidden": ["clairvoyant", "golden_goose", "compound_interest"],
+    "minScore": 15900
+  },
+  "Rainbow Spiral": {
+    "required": ["bigger_explosions", "trickledown", "transparency"],
+    "forbidden": ["left_is_lava", "pierce_color", "sticky_coins"],
+    "minScore": 16000
+  },
+  "GNU": {
+    "required": ["extra_life", "superhot", "trickledown"],
+    "forbidden": ["etherealcoins", "transparency", "left_is_lava"],
+    "minScore": 16100
+  },
+  "Pipe": {
+    "required": ["fountain_toss", "happy_family", "puck_repulse_ball"],
+    "forbidden": ["ball_repulse_ball", "trickledown", "hot_start"],
+    "minScore": 16200
+  },
+  "Brazil": {
+    "required": ["pierce", "soft_reset", "sapper"],
+    "forbidden": ["shocks", "asceticism", "hot_start"],
+    "minScore": 16300
+  },
+  "Profit motive": {
+    "required": ["ottawa_treaty", "hot_start", "compound_interest"],
+    "forbidden": ["respawn", "rainbow", "bigger_explosions"],
+    "minScore": 16400
+  },
+  "Home": {
+    "required": ["ball_attracts_coins", "steering", "implosions"],
+    "forbidden": ["ball_attract_ball", "base_combo", "right_is_lava"],
+    "minScore": 16500
+  },
+  "Last leaf": {
+    "required": ["wrap_left", "golden_goose", "nbricks"],
+    "forbidden": ["trampoline", "sturdy_bricks", "corner_shot"],
+    "minScore": 16600
+  },
+  "Peaceful Dove": {
+    "required": ["golden_goose", "wrap_right", "bricks_attract_ball"],
+    "forbidden": ["corner_shot", "wrap_left", "clairvoyant"],
+    "minScore": 16700
+  },
+  "Corporate dress": {
+    "required": ["metamorphosis", "helium", "superhot"],
+    "forbidden": ["corner_shot", "passive_income", "pierce"],
+    "minScore": 16800
+  },
+  "Zombie": {
+    "required": ["corner_shot", "respawn", "addiction"],
+    "forbidden": ["minefield", "clairvoyant", "etherealcoins"],
+    "minScore": 16900
+  },
+  "Dead Meme": {
+    "required": ["wrap_right", "minefield", "addiction"],
+    "forbidden": ["sturdy_bricks", "passive_income", "wrap_up"],
+    "minScore": 17000
+  },
+  "Taiwan": {
+    "required": ["pierce", "sacrifice", "extra_life"],
+    "forbidden": ["sapper", "shocks", "happy_family"],
+    "minScore": 17100
+  },
+  "Toadshield": {
+    "required": ["trickledown", "sacrifice", "metamorphosis"],
+    "forbidden": ["minefield", "happy_family", "addiction"],
+    "minScore": 17200
+  },
+  "Tree": {
+    "required": ["asceticism", "three_cushion", "trickledown"],
+    "forbidden": ["soft_reset", "compound_interest", "metamorphosis"],
+    "minScore": 17300
+  },
+  "missle": {
+    "required": ["double_or_nothing", "ball_attract_ball", "etherealcoins"],
+    "forbidden": ["trampoline", "forgiving", "golden_goose"],
+    "minScore": 17400
+  },
+  "Iran": {
+    "required": ["forgiving", "golden_goose", "viscosity"],
+    "forbidden": ["implosions", "limitless", "fountain_toss"],
+    "minScore": 17500
+  },
+  "bomb": {
+    "required": ["sapper", "implosions"],
+    "forbidden": ["viscosity", "pierce", "forgiving"],
+    "minScore": 17600
+  },
+  "Question mark": {
+    "required": ["asceticism", "compound_interest"],
+    "forbidden": ["buoy", "zen", "base_combo"],
+    "minScore": 2000
+  },
+  "apple": {
+    "required": ["bricks_attract_ball", "bricks_attract_coins", "superhot"],
+    "forbidden": ["right_is_lava", "sturdy_bricks", "skip_last"],
+    "minScore": 17800
+  },
+  "Crosshair 2": {
+    "required": ["sapper", "ottawa_treaty", "bigger_explosions"],
+    "forbidden": ["pierce_color", "pierce", "bricks_attract_ball"],
+    "minScore": 2000
+  },
+  "Tomato & Basil": {
+    "required": ["fountain_toss", "trickledown", "golden_goose"],
+    "forbidden": ["telekinesis", "reach", "coin_magnet"],
+    "minScore": 18000
+  },
+  "Bad tooth": {
+    "required": ["shocks", "ball_attract_ball", "respawn"],
+    "forbidden": ["bigger_puck", "ball_repulse_ball", "ottawa_treaty"],
+    "minScore": 18100
+  },
+  "Cloud sun and birds": {
+    "required": ["rainbow", "ghost_coins", "trampoline"],
+    "forbidden": ["bricks_attract_coins", "slow_down"],
+    "minScore": 18200
+  },
+  "Palestine": {
+    "required": ["smaller_puck", "compound_interest", "superhot"],
+    "forbidden": ["coin_magnet", "bigger_puck", "helium"],
+    "minScore": 18300
+  },
+  "Never Gonna Give You Up": {
+    "required": ["respawn", "superhot", "sturdy_bricks"],
+    "forbidden": ["multiball", "pierce", "pierce_color"],
+    "minScore": 19877
+  },
+  "Potion of Addiction": {
+    "required": ["addiction", "helium", "limitless", "rainbow", "slow_down"],
+    "forbidden": [],
+    "minScore": 420
+  },
+  "Lockpicking": {
+    "required": ["ghost_coins", "telekinesis", "smaller_puck"],
+    "forbidden": ["puck_repulse_ball", "bigger_puck", "pierce"],
+    "minScore": 18300
+  },
+  "Eruption": {
+    "required": ["implosions", "happy_family", "golden_goose"],
+    "forbidden": ["bigger_explosions", "bigger_puck", "telekinesis"],
+    "minScore": 18400
+  },
+  "Pumpkin": {
+    "required": ["trickledown", "ball_repulse_ball", "chill"],
+    "forbidden": ["puck_repulse_ball", "reach", "implosions"],
+    "minScore": 18500
+  },
+  "Huginn & Muninn": {
+    "required": ["concave_puck", "hot_start", "bigger_explosions"],
+    "forbidden": ["etherealcoins", "chill", "reach"],
+    "minScore": 18700
+  },
+  "Rosie the Dog": {
+    "required": ["streak_shots", "soft_reset", "fountain_toss"],
+    "forbidden": ["hot_start", "bricks_attract_ball", "wrap_left"],
+    "minScore": 18800
+  },
+  "Chess - King Piece": {
+    "required": ["nbricks", "smaller_puck"],
+    "forbidden": [],
+    "minScore": 18900
+  },
+  "L'Angélus": {
+    "required": ["steering", "rainbow", "ghost_coins"],
+    "forbidden": ["hot_start", "addiction", "base_combo"],
+    "minScore": 19000
+  },
+  "Pumpkinhead and Black Cat": {
+    "required": ["hot_start", "metamorphosis", "superhot"],
+    "forbidden": ["transparency", "left_is_lava"],
+    "minScore": 19300
+  },
+  "Floaty Ghost": {
+    "required": ["sacrifice", "extra_life", "transparency"],
+    "forbidden": ["respawn"],
+    "minScore": 4139
+  },
+  "christmas tree": {
+    "required": ["wrap_right", "wrap_up", "nbricks"],
+    "forbidden": ["three_cushion", "shocks", "sapper"],
+    "minScore": 19400
+  },
+  "Mountain Climber": {
+    "required": ["happy_family", "wrap_left", "extra_life"],
+    "forbidden": ["fountain_toss", "bricks_attract_coins", "passive_income"],
+    "minScore": 19500
+  },
+  "The Skull": {
+    "required": ["ball_attracts_coins", "asceticism", "addiction"],
+    "forbidden": ["rainbow", "soft_reset"],
+    "minScore": 19700
+  },
+  "Japan": {
+    "required": ["addiction", "minefield", "trampoline"],
+    "forbidden": ["ottawa_treaty", "right_is_lava", "ball_repulse_ball"],
+    "minScore": 19800
+  },
+  "Portugal": {
+    "required": ["sapper", "shocks", "golden_goose"],
+    "forbidden": ["wrap_up", "pierce", "sturdy_bricks"],
+    "minScore": 19900
+  },
+  "Banana Peel": {
+    "required": ["clairvoyant", "sacrifice", "fountain_toss"],
+    "forbidden": ["soft_reset", "asceticism", "nbricks"],
+    "minScore": 20000
+  },
+  "Emoji Cry": {
+    "required": ["ball_attract_ball", "picky_eater", "double_or_nothing"],
+    "forbidden": ["transparency", "left_is_lava", "pierce_color"],
+    "minScore": 20100
+  },
+  "Emoji wink": {
+    "required": ["ghost_coins", "implosions", "ottawa_treaty"],
+    "forbidden": ["picky_eater", "base_combo", "shocks"],
+    "minScore": 20200
+  },
+  "Santa Claus": {
+    "required": ["rainbow", "superhot", "right_is_lava"],
+    "forbidden": ["happy_family", "ghost_coins", "sturdy_bricks"],
+    "minScore": 20300
+  },
+  "Michaelsoft Binbows": {
+    "required": ["sturdy_bricks", "respawn"],
+    "forbidden": ["one_more_choice", "zen", "ottawa_treaty"],
+    "minScore": 19960
+  },
+  "Snowglobe": {
+    "required": ["wind", "viscosity", "ghost_coins"],
+    "forbidden": ["rainbow", "buoy", "coin_magnet"],
+    "minScore": 10000
+  },
+  "Freddie Mercury": {
+    "required": ["rainbow", "bigger_explosions", "double_or_nothing"],
+    "forbidden": [],
+    "minScore": 15000
+  },
+  "European Robin": {
+    "required": ["wrap_up", "smaller_puck", "happy_family"],
+    "forbidden": ["bigger_puck", "pierce"],
+    "minScore": 10000
+  },
+  "Wild Cat": {
+    "required": ["asceticism", "sapper", "sticky_coins"],
+    "forbidden": ["golden_goose"],
+    "minScore": 10000
+  },
+  "Bigoudène": {
+    "required": ["picky_eater", "sturdy_bricks"],
+    "forbidden": ["metamorphosis"],
+    "minScore": 10000
+  },
+  "67": {
+    "required": ["bricks_attract_ball", "asceticism", "double_or_nothing"],
+    "forbidden": ["reach", "ball_attract_ball", "chill"],
+    "minScore": 6767
+  },
+  "Rainbow": {
+    "required": ["corner_shot", "reach", "chill"],
+    "forbidden": ["three_cushion", "happy_family", "clairvoyant"],
+    "minScore": 21100
+  },
+  "Couple": {
+    "required": ["multiball", "ball_attract_ball", "happy_family"],
+    "forbidden": ["bigger_puck", "telekinesis"],
+    "minScore": 14020
+  },
+  "Abstract maze": {
+    "required": ["reach", "fountain_toss", "picky_eater"],
+    "forbidden": ["chill", "clairvoyant", "ghost_coins"],
+    "minScore": 21300
+  },
+  "Better half": {
+    "required": ["rainbow", "reach", "chill"],
+    "forbidden": ["ghost_coins", "respawn"],
+    "minScore": 21400
+  },
+  "Minesweeper 2": {
+    "required": ["zen", "minefield", "bigger_explosions"],
+    "forbidden": [],
+    "minScore": 19920
+  },
+  "Bouquet": {
+    "required": ["fountain_toss", "unbounded"],
+    "forbidden": ["yoyo", "extra_levels"],
+    "minScore": 805
+  },
+  "Bench proposal": {
+    "required": ["golden_goose", "wind", "sturdy_bricks"],
+    "forbidden": ["asceticism"],
+    "minScore": 8000
+  },
+  "Effeuiller la marguerite": {
+    "required": ["nbricks", "fountain_toss", "slow_down"],
+    "forbidden": ["clairvoyant"],
+    "minScore": 12345
+  },
+  "Trans Flag": {
+    "required": ["chill", "reach", "nbricks"],
+    "forbidden": ["puck_repulse_ball", "right_is_lava", "hot_start"],
+    "minScore": 21600
+  },
+  "f-droid": {
+    "required": ["happy_family", "respawn", "wrap_left"],
+    "forbidden": ["asceticism", "right_is_lava", "bricks_attract_ball"],
+    "minScore": 22000
+  },
+  "Mini fdroid": {
+    "required": ["trampoline", "ball_repulse_ball", "sturdy_bricks"],
+    "forbidden": ["puck_repulse_ball", "bricks_attract_ball", "addiction"],
+    "minScore": 22100
+  },
+  "haskell": {
+    "required": ["addiction", "steering", "minefield"],
+    "forbidden": ["nbricks", "implosions", "corner_shot"],
+    "minScore": 22200
+  },
+  "skibidi toilet": {
+    "required": ["passive_income", "minefield", "bigger_explosions"],
+    "forbidden": ["corner_shot"],
+    "minScore": 22300
+  },
+  "Czech Republic": {
+    "required": ["golden_goose", "corner_shot", "sacrifice"],
+    "forbidden": ["clairvoyant", "three_cushion", "metamorphosis"],
+    "minScore": 22400
+  },
+  "Slovakia": {
+    "required": ["respawn", "soft_reset", "clairvoyant"],
+    "forbidden": ["rainbow", "picky_eater", "etherealcoins"],
+    "minScore": 22500
+  },
+  "5 min less": {
+    "required": ["picky_eater", "fountain_toss", "ghost_coins"],
+    "forbidden": ["clairvoyant", "passive_income", "corner_shot"],
+    "minScore": 22600
+  },
+  "Weezevent": {
+    "required": ["base_combo", "ghost_coins", "compound_interest"],
+    "forbidden": ["nbricks", "forgiving", "picky_eater"],
+    "minScore": 22700
+  },
+  "Dots 2": {
+    "required": ["viscosity", "concave_puck", "pierce"],
+    "forbidden": ["limitless", "ottawa_treaty", "sapper"],
+    "minScore": 22800
+  },
+  "Italia": {
+    "required": ["wrap_right", "streak_shots", "right_is_lava"],
+    "forbidden": ["unbounded", "limitless", "sturdy_bricks"],
+    "minScore": 22900
+  },
+  "xenia": {
+    "required": ["puck_repulse_ball", "ball_repulse_ball", "unbounded"],
+    "forbidden": ["skip_last", "fountain_toss", "limitless"],
+    "minScore": 23000
+  },
+  "Cyclone Thing": {
+    "required": ["bricks_attract_ball", "skip_last", "trampoline"],
+    "forbidden": ["shocks", "sapper", "respawn"],
+    "minScore": 23100
+  },
+  "Chocolate chip cookie": {
+    "required": ["steering", "golden_goose", "bigger_explosions"],
+    "forbidden": ["compound_interest", "side_flip", "side_kick"],
+    "minScore": 23200
+  },
+  "Coal": {
+    "required": ["extra_life", "side_kick", "side_flip"],
+    "forbidden": ["right_is_lava", "bricks_attract_coins", "ottawa_treaty"],
+    "minScore": 23300
+  },
+  "Break an Egg": {
+    "required": ["nbricks", "picky_eater"],
+    "forbidden": [],
+    "minScore": 8000
+  },
+  "E. Aster Bunnymund": {
+    "required": ["wrap_up", "yoyo", "shocks", "sturdy_bricks"],
+    "forbidden": ["slow_down", "pierce"],
+    "minScore": 12000
+  },
+  "Easter bell": {
+    "required": ["ball_attracts_coins", "bigger_explosions", "bigger_puck"],
+    "forbidden": ["hot_start", "pierce", "limitless"],
+    "minScore": 12000
+  },
+  "Anti-Gravity Lean": {
+    "required": ["viscosity", "hot_start", "double_or_nothing"],
+    "forbidden": ["forgiving", "limitless"],
+    "minScore": 12000
+  },
+  "Construction site": {
+    "required": ["ball_attract_ball", "hot_start", "steering"],
+    "forbidden": ["one_more_choice", "pierce_color"],
+    "minScore": 12000
+  },
+  "Flags and bonfire": {
+    "required": ["ghost_coins", "ball_attracts_coins", "passive_income"],
+    "forbidden": ["fountain_toss", "smaller_puck", "picky_eater"],
+    "minScore": 23900
+  },
+  "rotten apple": {
+    "required": ["base_combo", "trickledown", "golden_goose"],
+    "forbidden": ["hot_start", "implosions", "superhot"],
+    "minScore": 24000
+  },
+  "Apple with a worm": {
+    "required": ["metamorphosis", "hot_start", "compound_interest"],
+    "forbidden": ["golden_goose", "bricks_attract_ball", "trampoline"],
+    "minScore": 24100
+  },
+  "Exclamation mark": {
+    "required": ["buoy", "coin_magnet", "compound_interest"],
+    "forbidden": ["asceticism", "forgiving", "zen"],
+    "minScore": 11111
+  },
+  "Arrow down": {
+    "required": [
+      "left_is_lava",
+      "right_is_lava",
+      "top_is_lava",
+      "zen",
+      "rainbow"
+    ],
+    "forbidden": ["buoy", "extra_life", "sapper"],
+    "minScore": 1555
+  },
+  "DeBÍ HaCER MáS NIVELeS": {
+    "required": ["shocks", "sapper", "pierce"],
+    "forbidden": ["concave_puck", "wrap_left", "helium"],
+    "minScore": 24400
+  },
+  "Factorio Gear": {
+    "required": ["double_or_nothing"],
+    "forbidden": ["chill"],
+    "minScore": 1000000
+  },
+  "Bread": {
+    "required": ["addiction", "minefield", "double_or_nothing"],
+    "forbidden": ["right_is_lava", "trampoline", "streak_shots"],
+    "minScore": 24600
+  },
+  "Hatsune Miku": {
+    "required": ["extra_life"],
+    "forbidden": ["bigger_explosions"],
+    "minScore": 39393
+  },
+  "ID": {
+    "required": ["corner_shot", "sticky_coins", "pierce_color"],
+    "forbidden": ["left_is_lava", "transparency", "sacrifice"],
+    "minScore": 24800
+  },
+  "EFF": {
+    "required": ["clairvoyant", "steering", "pierce"],
+    "forbidden": ["corner_shot", "sapper", "shocks"],
+    "minScore": 24900
+  },
+  "Mastodon": {
+    "required": ["ottawa_treaty", "base_combo", "implosions"],
+    "forbidden": ["superhot", "trickledown", "compound_interest"],
+    "minScore": 25000
+  },
+  "Syncthing": {
+    "required": ["double_or_nothing", "trickledown", "ball_attract_ball"],
+    "forbidden": ["right_is_lava", "sturdy_bricks", "forgiving"],
+    "minScore": 25100
+  },
+  "Clippy": {
+    "required": ["bricks_attract_ball", "forgiving", "shocks"],
+    "forbidden": ["sapper", "trickledown", "viscosity"],
+    "minScore": 25200
+  },
+  "LibreOffice": {
+    "required": ["bricks_attract_coins", "unbounded", "concave_puck"],
+    "forbidden": ["limitless", "viscosity", "forgiving"],
+    "minScore": 25300
+  },
+  "FreeBSD": {
+    "required": ["passive_income", "metamorphosis", "skip_last"],
+    "forbidden": ["streak_shots", "bricks_attract_coins", "unbounded"],
+    "minScore": 25400
+  },
+  "Text Launcher": {
+    "required": ["smaller_puck", "etherealcoins", "skip_last"],
+    "forbidden": ["three_cushion", "asceticism", "side_flip"],
+    "minScore": 25500
+  },
+  "Jetbrains": {
+    "required": ["side_flip", "side_kick", "trampoline"],
+    "forbidden": ["fountain_toss", "sticky_coins", "pierce_color"],
+    "minScore": 25600
+  },
+  "WebStorm": {
+    "required": ["ball_repulse_ball", "pierce", "puck_repulse_ball"],
+    "forbidden": ["transparency", "left_is_lava", "sapper"],
+    "minScore": 25700
+  },
+  "i3": {
+    "required": ["respawn", "extra_life", "rainbow"],
+    "forbidden": ["ottawa_treaty", "corner_shot", "wrap_up"],
+    "minScore": 25800
+  },
+  "Firefox": {
+    "required": ["bigger_explosions", "happy_family", "right_is_lava"],
+    "forbidden": ["compound_interest", "steering", "corner_shot"],
+    "minScore": 25900
+  },
+  "Sublime Text": {
+    "required": ["reach", "ball_attracts_coins", "chill"],
+    "forbidden": ["implosions", "telekinesis", "shocks"],
+    "minScore": 26000
+  },
+  "Kanban Md": {
+    "required": ["chill", "reach", "concave_puck"],
+    "forbidden": ["fountain_toss", "telekinesis", "streak_shots"],
+    "minScore": 26100
+  },
+  "Flameshot": {
+    "required": ["streak_shots", "chill", "reach"],
+    "forbidden": [
+      "ball_repulse_ball",
+      "puck_repulse_ball",
+      "bricks_attract_ball"
+    ],
+    "minScore": 26200
+  },
+  "VLC": {
+    "required": ["ottawa_treaty", "chill", "reach"],
+    "forbidden": ["trickledown", "smaller_puck", "bricks_attract_ball"],
+    "minScore": 26300
+  },
+  "Aegis Authenticator": {
+    "required": ["trickledown", "steering", "hot_start"],
+    "forbidden": ["chill", "right_is_lava", "reach"],
+    "minScore": 26400
+  },
+  "Feeder": {
+    "required": ["pierce", "transparency", "left_is_lava"],
+    "forbidden": ["pierce_color", "sticky_coins", "sapper"],
+    "minScore": 26500
+  },
+  "Thumb-Key": {
+    "required": ["wrap_left", "trampoline", "puck_repulse_ball"],
+    "forbidden": ["ball_repulse_ball", "chill", "reach"],
+    "minScore": 26600
+  },
+  "Xed-Editor": {
+    "required": ["metamorphosis", "superhot", "wrap_right"],
+    "forbidden": ["wrap_left", "happy_family", "chill"],
+    "minScore": 26700
+  },
+  "Easter Egg": {
+    "required": ["compound_interest", "extra_life", "etherealcoins"],
+    "forbidden": ["happy_family", "three_cushion", "bigger_explosions"],
+    "minScore": 26800
+  },
+  "Rainy day": {
+    "required": ["addiction", "fountain_toss", "ball_attract_ball"],
+    "forbidden": ["minefield", "respawn", "flyswatter"],
+    "minScore": 26900
+  },
+  "GrapheneOS": {
+    "required": ["wrap_up", "gravity_falls", "streak_shots"],
+    "forbidden": ["addiction", "top_is_lava", "pierce_left"],
+    "minScore": 27000
+  },
+  "South Africa": {
+    "required": ["ball_repulse_ball", "pierce_left", "minefield"],
+    "forbidden": ["puck_repulse_ball", "telekinesis", "addiction"],
+    "minScore": 27100
+  },
+  "Internet Archive": {
+    "required": ["bricks_attract_coins", "telekinesis", "sacrifice"],
+    "forbidden": ["smaller_puck", "three_cushion", "pierce_left"],
+    "minScore": 27200
+  },
+  "C.G.Jung RedBook pg94 V.1": {
+    "required": ["bricks_attract_ball", "refill", "bigger_explosions"],
+    "forbidden": ["sticky_coins"],
+    "minScore": 27300
+  },
+  "C.G.Jung RedBook pg94 V.2": {
+    "required": ["fountain_toss", "steering", "pierce_right"],
+    "forbidden": ["transparency", "left_is_lava", "pierce_color"],
+    "minScore": 27400
+  },
+  "C.G.Jung RedBook pg93 V.1": {
+    "required": ["pierce_top", "base_combo", "wrap_up"],
+    "forbidden": ["trickledown", "forgiving", "viscosity"],
+    "minScore": 27500
+  },
+  "C.G.Jung RedBook pg159 V.1": {
+    "required": ["ottawa_treaty", "trickledown", "viscosity"],
+    "forbidden": ["limitless", "forgiving", "happy_family"],
+    "minScore": 27600
+  },
+  "SNES": {
+    "required": ["wrap_right", "superhot", "compound_interest"],
+    "forbidden": ["sturdy_bricks", "right_is_lava", "unbounded"],
+    "minScore": 27700
+  },
+  "Small Potion": {
+    "required": ["skip_last", "ball_attract_ball", "extra_life"],
+    "forbidden": ["vibrant_neighborhood", "double_or_nothing", "pierce"],
+    "minScore": 27800
+  },
+  "Stonks": {
+    "required": ["flyswatter", "side_flip", "side_kick"],
+    "forbidden": ["gravity_falls", "skip_last", "golden_goose"],
+    "minScore": 27900
+  },
+  "Not stonks": {
+    "required": ["smaller_puck", "coin_magnet", "palette"],
+    "forbidden": ["puck_repulse_ball", "side_flip", "side_kick"],
+    "minScore": 28000
+  },
+  "The golden ball": {
+    "required": ["sapper", "ball_attracts_coins", "shocks"],
+    "forbidden": ["refill", "thomas", "bigger_puck"],
+    "minScore": 28100
+  },
+  "Futuristic city": {
+    "required": ["compound_interest", "top_is_lava", "bigger_puck"],
+    "forbidden": ["paddle_up_combo", "sturdy_bricks", "pierce_left"],
+    "minScore": 28200
+  },
+  "CCTV camera": {
+    "required": ["pierce_left", "soft_reset", "soft_touch"],
+    "forbidden": ["gravity_falls", "pierce_above_paddle", "telekinesis"],
+    "minScore": 28300
+  },
+  "Explosive core apple": {
+    "required": ["telekinesis", "happy_family", "pierce_left"],
+    "forbidden": ["bricks_attract_ball", "rainbow", "metamorphosis"],
+    "minScore": 28400
+  },
+  "Teotihuacán": {
+    "required": ["base_combo", "passive_income", "three_cushion"],
+    "forbidden": ["implosions", "telekinesis", "pierce_top"],
+    "minScore": 28500
+  },
+  "Pure Love": {
+    "required": ["wrap_up", "pierce", "refill"],
+    "forbidden": ["sapper", "shocks", "helium"],
+    "minScore": 28600
+  },
+  "Python - Programming language": {
+    "required": ["double_or_nothing", "wrap_right", "fountain_toss"],
+    "forbidden": ["ball_attract_ball", "trickledown", "hot_start"],
+    "minScore": 28700
+  },
+  "Ruby - Programming language": {
+    "required": ["hot_start", "trickledown", "disco_ball"],
+    "forbidden": ["golden_goose", "extra_life", "passive_income"],
+    "minScore": 28800
+  },
+  "C Sharp - Programming Language": {
+    "required": ["ottawa_treaty", "flyswatter", "trickledown"],
+    "forbidden": ["wrap_left", "hot_start", "golden_goose"],
+    "minScore": 28900
+  },
+  "Javascript - Programming language": {
+    "required": ["disco_ball", "bricks_attract_coins", "corner_shot"],
+    "forbidden": ["golden_goose", "reach", "chill"],
+    "minScore": 29000
+  },
+  "CSS - Style sheet language": {
+    "required": ["corner_shot", "clairvoyant", "paddle_up_combo"],
+    "forbidden": ["flyswatter", "passive_income", "gravity_falls"],
+    "minScore": 29100
+  },
+  "HTML - Markup language": {
+    "required": ["ball_attracts_coins", "respawn", "clairvoyant"],
+    "forbidden": ["metamorphosis", "rainbow", "picky_eater"],
+    "minScore": 29200
+  },
+  "TypeScript - Programming language": {
+    "required": ["picky_eater", "round_bricks", "puck_repulse_ball"],
+    "forbidden": ["trampoline", "ball_repulse_ball", "hot_start"],
+    "minScore": 29300
+  },
+  "Java - Programming language": {
+    "required": ["ghost_coins", "reach", "chill"],
+    "forbidden": ["pierce_above_paddle", "concave_puck", "nbricks"],
+    "minScore": 29400
+  },
+  "Django": {
+    "required": ["reach", "chill", "wrap_left"],
+    "forbidden": ["bigger_explosions", "compound_interest", "streak_shots"],
+    "minScore": 29500
+  },
+  "Kasane Teto": {
+    "required": ["addiction", "compound_interest"],
+    "forbidden": ["round_bricks"],
+    "minScore": 40100
+  },
+  "Fish": {
+    "required": ["compound_interest", "golden_goose", "coin_magnet"],
+    "forbidden": ["buoy", "viscosity", "ball_attracts_coins"],
+    "minScore": 11153
+  },
+  "Joker": {
+    "required": ["reach", "smaller_puck", "chill"],
+    "forbidden": ["vibrant_neighborhood", "wrap_left", "thomas"],
+    "minScore": 29600
+  },
+  "FragdenStaat": {
+    "required": ["chill", "reach", "soft_touch"],
+    "forbidden": ["soft_reset", "rainbow", "sticky_coins"],
+    "minScore": 29700
+  },
+  "Hadouken!": {
+    "required": ["palette", "chill", "reach"],
+    "forbidden": ["sturdy_bricks", "addiction", "pierce_right"],
+    "minScore": 29800
+  },
+  "NES Mario": {
+    "required": ["minefield", "bigger_explosions", "addiction"],
+    "forbidden": ["disco_ball", "sacrifice", "soft_touch"],
+    "minScore": 30000
+  },
+  "What is time?": {
+    "required": ["concave_puck", "superhot", "right_is_lava"],
+    "forbidden": ["pierce_top", "corner_shot", "ball_attracts_coins"],
+    "minScore": 30200
+  },
+  "Planet Earth": {
+    "required": ["respawn", "corner_shot", "streak_shots"],
+    "forbidden": ["trampoline", "clairvoyant", "rainbow"],
+    "minScore": 30300
+  },
+  "Floppy disk": {
+    "required": ["compound_interest", "clairvoyant", "smaller_puck"],
+    "forbidden": ["paddle_up_combo", "wrap_right", "corner_shot"],
+    "minScore": 30400
+  },
+  "Nether Portal": {
+    "required": ["viscosity", "picky_eater", "bricks_attract_ball"],
+    "forbidden": ["forgiving", "extra_life", "limitless"],
+    "minScore": 30500
+  },
+  "Letters and Numbers": {
+    "required": ["ghost_coins", "pierce_right", "transparency"],
+    "forbidden": ["left_is_lava", "pierce_color", "sticky_coins"],
+    "minScore": 30600
+  },
+  "Ärzte ohne Grenzen": {
+    "required": ["skip_last", "asceticism", "soft_reset"],
+    "forbidden": ["soft_touch", "ghost_coins", "passive_income"],
+    "minScore": 30700
+  },
+  "Bellingcat": {
+    "required": ["rainbow", "happy_family", "respawn"],
+    "forbidden": ["side_flip", "side_kick", "skip_last"],
+    "minScore": 30800
+  },
+  "Arch Linux": {
+    "required": ["thomas", "implosions", "side_kick"],
+    "forbidden": ["side_flip", "palette", "shocks"],
+    "minScore": 30900
+  },
+
+  "Yellow lines": {
+    "required": ["side_kick", "side_flip", "concave_puck"],
+    "forbidden": ["soft_touch", "soft_reset", "three_cushion"],
+    "minScore": 31000
+  },
+  "7 jours sur Terre": {
+    "required": ["streak_shots", "etherealcoins", "concave_puck"],
+    "forbidden": ["side_kick", "side_flip", "puck_repulse_ball"],
+    "minScore": 31100
+  },
+  "Arkanoid Archive": {
+    "required": ["pierce_top", "base_combo", "fountain_toss"],
+    "forbidden": ["smaller_puck", "thomas", "implosions"],
+    "minScore": 31200
+  },
+  "Wind Chime": {
+    "required": ["ball_attracts_coins", "smaller_puck", "compound_interest"],
+    "forbidden": ["trampoline", "sticky_coins", "pierce_color"],
+    "minScore": 31300
+  },
+  "Fedora Linux": {
+    "required": ["pierce_color", "sticky_coins", "left_is_lava"],
+    "forbidden": ["transparency", "pierce_right", "wrap_right"],
+    "minScore": 31400
+  },
+  "Tauri": {
+    "required": ["vibrant_neighborhood", "corner_shot", "right_is_lava"],
+    "forbidden": ["extra_life", "pierce_above_paddle", "clairvoyant"],
+    "minScore": 31500
+  },
+  "Android": {
+    "required": ["clairvoyant", "flyswatter", "corner_shot"],
+    "forbidden": ["steering", "happy_family", "picky_eater"],
+    "minScore": 31600
+  },
+  "Big G": {
+    "required": ["hot_start", "thomas", "asceticism"],
+    "forbidden": ["picky_eater", "shocks"],
+    "minScore": 31700
+  },
+  "Discourse": {
+    "required": ["ghost_coins", "metamorphosis", "picky_eater"],
+    "forbidden": ["trampoline", "wrap_left", "hot_start"],
+    "minScore": 31800
+  },
+  "Libera Chat": {
+    "required": ["superhot", "wrap_left", "respawn"],
+    "forbidden": ["rainbow", "ghost_coins", "implosions"],
+    "minScore": 31900
+  },
+  "IRC": {
+    "required": ["wrap_left", "soft_reset", "soft_touch"],
+    "forbidden": ["sturdy_bricks", "asceticism", "trickledown"],
+    "minScore": 32000
+  },
+
+  "R.E.P.O": {
+    "required": ["smaller_puck", "gravity_falls", "paddle_up_combo"],
+    "forbidden": ["steering", "wrap_left", "helium"],
+    "minScore": 32100
+  },
+  "Dexter Morgan": {
+    "required": ["base_combo", "implosions", "sticky_coins"],
+    "forbidden": ["left_is_lava", "transparency"],
+    "minScore": 32200
+  },
+  "Dr. Gregory House": {
+    "required": ["addiction", "minefield", "double_or_nothing"],
+    "forbidden": ["three_cushion", "ball_attracts_coins", "pierce_right"],
+    "minScore": 32300
+  },
+  "Breakout Bad": {
+    "required": ["sacrifice", "minefield", "etherealcoins"],
+    "forbidden": ["wrap_right", "addiction", "ball_attracts_coins"],
+    "minScore": 32400
+  },
+  "Haumea, the Second Pillar": {
+    "required": ["disco_ball", "happy_family", "passive_income"],
+    "forbidden": ["thomas", "fountain_toss", "sacrifice"],
+    "minScore": 32500
+  },
+  "Charon, Guardian of the Second Pillar": {
+    "required": ["bricks_attract_ball", "flyswatter", "pierce_above_paddle"],
+    "forbidden": ["corner_shot", "steering", "palette"],
+    "minScore": 32600
+  },
+  "Ohkubo's Moon": {
+    "required": ["ottawa_treaty", "corner_shot", "bigger_explosions"],
+    "forbidden": ["clairvoyant", "asceticism", "pierce_top"],
+    "minScore": 32700
+  },
+  "Ohkubo's Sun": {
+    "required": ["trampoline", "corner_shot", "clairvoyant"],
+    "forbidden": ["forgiving", "right_is_lava", "viscosity"],
+    "minScore": 32800
+  },
+  "Ohkubo's Death God.": {
+    "required": ["unbounded", "golden_goose", "limitless"],
+    "forbidden": ["paddle_up_combo", "bricks_attract_coins", "viscosity"],
+    "minScore": 32900
+  },
+  "Soul Eater \\(0£0)/": {
+    "required": ["asceticism", "unbounded", "limitless"],
+    "forbidden": ["viscosity"],
+    "minScore": 33000
+  },
+  "Joker (Five-Two)": {
+    "required": ["trickledown", "steering", "skip_last"],
+    "forbidden": ["pierce_right", "transparency", "left_is_lava"],
+    "minScore": 33100
+  },
+  "Shinmon Benimaru, the God of Destruction of Asakusa.": {
+    "required": ["implosions", "skip_last", "trickledown"],
+    "forbidden": ["right_is_lava", "base_combo", "ottawa_treaty"],
+    "minScore": 33200
+  },
+  "Shinmon Benimaru's NICHIRIN": {
+    "required": ["happy_family", "side_flip", "side_kick"],
+    "forbidden": ["sturdy_bricks", "thomas", "shocks"],
+    "minScore": 33300
+  },
+  "Breakout LXXI": {
+    "required": [
+      "ball_attracts_coins",
+      "ball_repulse_ball",
+      "vibrant_neighborhood"
+    ],
+    "forbidden": ["superhot", "puck_repulse_ball", "gravity_falls"],
+    "minScore": 33400
+  },
+  "Hastati": {
+    "required": ["disco_ball", "soft_touch", "soft_reset"],
+    "forbidden": ["extra_life"],
+    "minScore": 33500
+  },
+  "Spartans!": {
+    "required": ["bigger_explosions", "pierce_above_paddle", "three_cushion"],
+    "forbidden": ["bricks_attract_ball", "flyswatter", "respawn"],
+    "minScore": 33600
+  },
+  "Trojan Horse": {
+    "required": ["pierce_top", "golden_goose", "etherealcoins"],
+    "forbidden": ["base_combo", "bricks_attract_ball"],
+    "minScore": 33700
+  },
+  "Centurion": {
+    "required": ["shocks", "sapper", "thomas"],
+    "forbidden": ["refill", "pierce", "fountain_toss"],
+    "minScore": 33800
+  },
+  "Numidian cavalry": {
+    "required": ["wrap_right", "corner_shot", "clairvoyant"],
+    "forbidden": ["hot_start", "implosions", "picky_eater"],
+    "minScore": 33900
+  },
+  "Zeus": {
+    "required": ["metamorphosis", "reach", "chill"],
+    "forbidden": ["passive_income", "asceticism", "telekinesis"],
+    "minScore": 34000
+  },
+  "Fish 2": {
+    "required": ["sacrifice", "ottawa_treaty", "round_bricks"],
+    "forbidden": ["minefield", "flyswatter", "concave_puck"],
+    "minScore": 30100
+  },
+
+  "Glowing jellyfish": {
+    "required": ["reach", "chill", "trampoline"],
+    "forbidden": ["hot_start", "etherealcoins", "happy_family"],
+    "minScore": 34100
+  },
+  "Yellow azae": {
+    "required": ["chill", "reach", "wrap_up"],
+    "forbidden": ["hot_start", "trickledown", "fountain_toss"],
+    "minScore": 34200
+  },
+  "Red azae": {
+    "required": ["trickledown", "chill", "reach"],
+    "forbidden": ["wrap_left", "puck_repulse_ball", "ball_repulse_ball"],
+    "minScore": 34300
+  },
+  "Minotaur": {
+    "required": ["chill", "reach", "trickledown"],
+    "forbidden": ["wrap_left", "superhot", "ball_attracts_coins"],
+    "minScore": 34400
+  },
+  "Atropa": {
+    "required": ["compound_interest", "soft_touch", "soft_reset"],
+    "forbidden": ["chill", "reach", "right_is_lava"],
+    "minScore": 34500
+  },
+  "Strawberry": {
+    "required": ["paddle_up_combo", "thomas", "shocks"],
+    "forbidden": ["sapper", "refill", "golden_goose"],
+    "minScore": 34600
+  },
+  "Bomb garden": {
+    "required": ["bricks_attract_ball", "minefield", "pierce_top"],
+    "forbidden": ["addiction", "base_combo", "gravity_falls"],
+    "minScore": 34700
+  },
+  "Steamed clams": {
+    "required": ["steering", "sacrifice", "bricks_attract_coins"],
+    "forbidden": ["minefield", "chill", "reach"],
+    "minScore": 34800
+  },
+  "This is literally 2077!": {
+    "required": ["round_bricks", "wrap_right", "three_cushion"],
+    "forbidden": ["sacrifice", "concave_puck", "chill"],
+    "minScore": 34900
+  },
+  "Plague Inc. logo": {
+    "required": ["bigger_explosions", "pierce_left", "instant_explosion"],
+    "forbidden": ["happy_family", "right_is_lava", "paddle_up_combo"],
+    "minScore": 35000
+  },
+  "Altered Carbon": {
+    "required": ["telekinesis", "trampoline", "pierce_left"],
+    "forbidden": ["rainbow", "top_is_lava", "gravity_falls"],
+    "minScore": 35100
+  },
+  "Breakout Bad, again.": {
+    "required": ["telekinesis", "forgiving", "wrap_right"],
+    "forbidden": ["vibrant_neighborhood", "gravity_falls", "palette"],
+    "minScore": 35200
+  },
+  "This is literally 1984!": {
+    "required": ["viscosity", "metamorphosis", "wrap_up"],
+    "forbidden": ["forgiving", "limitless"],
+    "minScore": 35300
+  },
+  "Fahrenheit 451 - Ray Bradbury": {
+    "required": ["golden_goose", "thomas", "shocks"],
+    "forbidden": ["sapper", "etherealcoins", "compound_interest"],
+    "minScore": 35400
+  },
+  "The meat of sassafas, Albert camel": {
+    "required": ["ball_attracts_coins", "skip_last", "soft_brush"],
+    "forbidden": ["ball_attract_ball", "soft_reset", "soft_touch"],
+    "minScore": 35500
+  },
+  "A Clockwork Orange - Anthony Burgess": {
+    "required": ["passive_income", "trickledown", "side_flip"],
+    "forbidden": ["side_kick", "skip_last", "superhot"],
+    "minScore": 35600
+  },
+  "Omnisexual flag": {
+    "required": ["side_kick", "side_flip", "base_combo"],
+    "forbidden": ["round_bricks", "implosions", "pierce_above_paddle"],
+    "minScore": 35700
+  },
+  "a bo-tl uh wah-tah": {
+    "required": ["concave_puck", "right_is_lava", "wrap_up"],
+    "forbidden": ["steering", "bricks_attract_ball", "streak_shots"],
+    "minScore": 35800
+  },
+  "Hydra & Hercules": {
+    "required": ["pierce", "refill", "streak_shots"],
+    "forbidden": ["sapper", "shocks", "thomas"],
+    "minScore": 35900
+  },
+  "S.P.Q.R": {
+    "required": ["pierce_top", "coin_magnet", "bigger_puck"],
+    "forbidden": ["fountain_toss", "base_combo", "top_is_lava"],
+    "minScore": 36000
+  },
+  "Minerva's Owl": {
+    "required": ["top_is_lava", "bigger_puck", "coin_magnet"],
+    "forbidden": ["trampoline", "pierce_left", "telekinesis"],
+    "minScore": 36100
+  },
+
+  "Finn the human": {
+    "required": ["ottawa_treaty", "wrap_right", "golden_goose"],
+    "forbidden": ["pierce_left", "thomas", "shocks"],
+    "minScore": 36200
+  },
+  "Jake the dog": {
+    "required": ["extra_life", "telekinesis", "paddle_up_combo"],
+    "forbidden": ["steering", "pierce_left", "right_is_lava"],
+    "minScore": 36300
+  },
+  "Umbrella Corporation": {
+    "required": ["wrap_up", "double_or_nothing", "telekinesis"],
+    "forbidden": ["flyswatter", "ball_attract_ball", "nbricks"],
+    "minScore": 36400
+  },
+  "The Dark Side of the Moon": {
+    "required": ["asceticism", "hot_start", "round_bricks"],
+    "forbidden": ["soft_brush", "soft_reset", "soft_touch"],
+    "minScore": 36500
+  },
+  "mau5head": {
+    "required": ["metamorphosis", "concave_puck", "superhot"],
+    "forbidden": ["bricks_attract_coins", "round_bricks", "wrap_left"],
+    "minScore": 36600
+  },
+  "QR Code": {
+    "required": ["refill", "streak_shots", "wrap_left"],
+    "forbidden": ["sapper", "shocks"],
+    "minScore": 36700
+  },
+  "Colibri": {
+    "required": ["bricks_attract_ball", "trickledown", "pierce_above_paddle"],
+    "forbidden": ["fountain_toss", "smaller_puck", "wrap_left"],
+    "minScore": 36800
+  },
+  "Parrot": {
+    "required": ["wrap_up", "smaller_puck", "trickledown"],
+    "forbidden": ["passive_income", "addiction", "nbricks"],
+    "minScore": 36900
+  },
+  "New Earth-rise": {
+    "required": ["base_combo", "varied_diet", "nbricks"],
+    "forbidden": ["thomas", "pierce_top", "implosions"],
+    "minScore": 37000
+  },
+  "'Integrity' Crew Module landing": {
+    "required": ["addiction", "three_cushion", "passive_income"],
+    "forbidden": ["minefield", "varied_diet", "coin_magnet"],
+    "minScore": 37100
+  },
+  "The Jonkler": {
+    "required": ["coin_magnet", "vibrant_neighborhood", "sacrifice"],
+    "forbidden": ["minefield", "wrap_right", "bigger_puck"],
+    "minScore": 37200
+  },
+  "Banksy knockoff No.1": {
+    "required": ["bigger_puck", "top_is_lava", "disco_ball"],
+    "forbidden": ["sacrifice", "fountain_toss"],
+    "minScore": 37300
+  },
+  "Banksy knockoff No.2": {
+    "required": ["flyswatter", "palette", "round_bricks"],
+    "forbidden": ["pierce_left", "top_is_lava", "bigger_puck"],
+    "minScore": 37400
+  },
+  "Banksy knockoff No.3": {
+    "required": ["ottawa_treaty", "sapper", "shocks"],
+    "forbidden": ["refill", "pierce_left", "thomas"],
+    "minScore": 37500
+  },
+  "Banksy knockoff No.4": {
+    "required": ["ball_attracts_coins", "telekinesis", "superhot"],
+    "forbidden": ["forgiving", "trampoline", "sturdy_bricks"],
+    "minScore": 37600
+  },
+  "Banksy knockoff No.5": {
+    "required": ["unbounded", "limitless", "smaller_puck"],
+    "forbidden": ["viscosity", "bigger_explosions", "forgiving"],
+    "minScore": 37700
+  },
+  "Banksy knockoff No.6": {
+    "required": ["sticky_coins", "pierce_color", "left_is_lava"],
+    "forbidden": ["transparency", "pierce_right", "skip_last"],
+    "minScore": 37800
+  },
+  "Papyrus": {
+    "required": ["metamorphosis", "skip_last", "trickledown"],
+    "forbidden": ["puck_repulse_ball", "pierce_right"],
+    "minScore": 37900
+  },
+  "Anti-Gain": {
+    "required": ["implosions", "skip_last", "paddle_up_combo"],
+    "forbidden": ["right_is_lava", "palette", "base_combo"],
+    "minScore": 38000
+  },
+  "Friend": {
+    "required": ["side_flip", "side_kick", "nbricks"],
+    "forbidden": ["sturdy_bricks", "varied_diet", "superhot"],
+    "minScore": 38100
+  },
+  "Fionna Campbell": {
+    "required": ["round_bricks", "gravity_falls", "varied_diet"],
+    "forbidden": ["side_kick", "side_flip", "wrap_right"],
+    "minScore": 38200
+  },
+  "Cake the cat": {
+    "required": ["thomas", "shocks", "sapper"],
+    "forbidden": ["disco_ball", "refill", "concave_puck"],
+    "minScore": 38300
+  },
+  "Sans": {
+    "required": ["puck_repulse_ball", "coin_magnet", "rainbow"],
+    "forbidden": ["ball_repulse_ball", "three_cushion", "streak_shots"],
+    "minScore": 38400
+  },
+  "Daft Punk": {
+    "required": ["palette", "bigger_puck", "smaller_puck"],
+    "forbidden": ["top_is_lava", "coin_magnet", "bricks_attract_coins"],
+    "minScore": 38500
+  },
+  "Mondrian": {
+    "required": ["nbricks", "instant_explosion", "trampoline"],
+    "forbidden": ["top_is_lava", "bigger_explosions", "bricks_attract_coins"],
+    "minScore": 38600
+  },
+  "Morse Code": {
+    "required": ["pierce_left", "passive_income", "pierce_right"],
+    "forbidden": ["transparency", "left_is_lava", "pierce_color"],
+    "minScore": 38700
+  },
+  "Pokeball": {
+    "required": ["bricks_attract_ball", "happy_family", "pierce_above_paddle"],
+    "forbidden": ["hot_start", "sturdy_bricks", "telekinesis"],
+    "minScore": 38900
+  },
+  "The Simpsons": {
+    "required": ["telekinesis", "ottawa_treaty", "paddle_up_combo"],
+    "forbidden": ["hot_start", "thomas", "yoyo"],
+    "minScore": 38800
+  },
+  "Tic Tac Toe": {
+    "required": ["gravity_falls", "compound_interest", "happy_family"],
+    "forbidden": ["bricks_attract_ball", "passive_income", "disco_ball"],
+    "minScore": 39000
+  },
+  "Pottery": {
+    "required": ["ball_attract_ball", "double_or_nothing", "happy_family"],
+    "forbidden": ["superhot", "flyswatter", "buoy"],
+    "minScore": 39100
+  },
+  "Piano": {
+    "required": ["soft_reset", "soft_touch", "asceticism"],
+    "forbidden": ["three_cushion", "etherealcoins", "respawn"],
+    "minScore": 39200
+  },
+  "An HDD (Hard Disk Drive).": {
+    "required": ["passive_income", "fountain_toss", "hot_start"],
+    "forbidden": ["corner_shot", "thomas", "clairvoyant"],
+    "minScore": 39300
+  },
+  "Bliss": {
+    "required": ["hot_start", "implosions", "corner_shot"],
+    "forbidden": ["clairvoyant", "pierce_top", "golden_goose"],
+    "minScore": 39400
+  },
+  "Default Cube.": {
+    "required": ["corner_shot", "clairvoyant", "golden_goose"],
+    "forbidden": ["hot_start", "wrap_left", "double_or_nothing"],
+    "minScore": 39500
+  },
+  "Blender - 3D modeling software.": {
+    "required": ["wrap_left", "clairvoyant", "corner_shot"],
+    "forbidden": ["wrap_right", "passive_income", "ottawa_treaty"],
+    "minScore": 39600
+  },
+  "Krita - Digital art software.": {
+    "required": ["disco_ball", "respawn", "ball_repulse_ball"],
+    "forbidden": ["sturdy_bricks", "puck_repulse_ball", "ghost_coins"],
+    "minScore": 39700
+  },
+  "The Nebra Sky Disk": {
+    "required": ["round_bricks", "ghost_coins", "flyswatter"],
+    "forbidden": ["gravity_falls", "thomas", "paddle_up_combo"],
+    "minScore": 39800
+  },
+  "A little bit of sunshine": {
+    "required": ["bigger_explosions", "concave_puck", "addiction"],
+    "forbidden": ["instant_explosion", "minefield", "ghost_coins"],
+    "minScore": 39900
+  },
+  "Tako Luka": {
+    "required": ["bricks_attract_ball", "addiction", "ottawa_treaty"],
+    "forbidden": ["double_or_nothing", "minefield", "ball_attract_ball"],
+    "minScore": 40000
+  },
+  "Mauve": {
+    "required": ["superhot", "right_is_lava", "minefield"],
+    "forbidden": ["flyswatter", "sacrifice", "addiction"],
+    "minScore": 40100
+  },
+  "Seychelles": {
+    "required": ["asceticism", "paddle_up_combo", "sacrifice"],
+    "forbidden": ["soft_brush", "soft_reset", "soft_touch"],
+    "minScore": 40200
+  },
+  "Synthwave Landscape": {
+    "required": ["golden_goose", "gravity_falls", "bricks_attract_coins"],
+    "forbidden": ["trampoline", "respawn", "sacrifice"],
+    "minScore": 40300
+  },
+  "skibidi toilet 67": {
+    "required": ["bricks_attract_coins", "metamorphosis", "implosions"],
+    "forbidden": ["bigger_explosions", "instant_explosion", "forgiving"],
+    "minScore": 40400
+  },
+  "Full Moon": {
+    "required": ["forgiving", "etherealcoins", "steering"],
+    "forbidden": ["three_cushion", "viscosity", "limitless"],
+    "minScore": 40500
+  },
+  "Chromatic aberration.": {
+    "required": ["limitless", "unbounded", "viscosity"],
+    "forbidden": ["puck_repulse_ball", "round_bricks", "ball_repulse_ball"],
+    "minScore": 40600
+  },
+  "Chicken or the egg?": {
+    "required": ["corner_shot", "concave_puck", "clairvoyant"],
+    "forbidden": ["disco_ball", "skip_last", "unbounded"],
+    "minScore": 40700
+  },
+  "Schrödinger's cat.": {
+    "required": ["ball_attracts_coins", "clairvoyant", "streak_shots"],
+    "forbidden": ["skip_last", "instant_explosion", "compound_interest"],
+    "minScore": 40800
+  },
+  "Solar eclipse.": {
+    "required": ["picky_eater", "side_flip", "side_kick"],
+    "forbidden": ["passive_income", "ghost_coins", "smaller_puck"],
+    "minScore": 40900
+  },
+  "Cupids Arrow": {
+    "required": ["trickledown", "disco_ball", "side_flip"],
+    "forbidden": ["side_kick", "etherealcoins", "helium"],
+    "minScore": 41000
+  },
+  "Sandwich": {
+    "required": ["flyswatter", "ball_repulse_ball", "fountain_toss"],
+    "forbidden": ["puck_repulse_ball", "golden_goose", "trickledown"],
+    "minScore": 41100
+  },
+  "Tetris 71": {
+    "required": ["asceticism", "golden_goose", "trickledown"],
+    "forbidden": ["soft_brush", "side_kick", "side_flip"],
+    "minScore": 41200
+  },
+  "Atom": {
+    "required": ["bigger_explosions", "ottawa_treaty", "trampoline"],
+    "forbidden": ["instant_explosion", "compound_interest", "trickledown"],
+    "minScore": 41300
+  },
+  "Gameboy 71": {
+    "required": ["right_is_lava", "sturdy_bricks", "round_bricks"],
+    "forbidden": ["implosions", "wrap_up", "thomas"],
+    "minScore": 41400
+  },
+  "miss": {
+    "required": ["steering", "concave_puck", "round_bricks"],
+    "forbidden": ["puck_repulse_ball", "paddle_up_combo", "ball_repulse_ball"],
+    "minScore": 41500
+  },
+  "Sisyphus": {
+    "required": ["streak_shots", "gravity_falls", "concave_puck"],
+    "forbidden": ["hot_start", "flyswatter", "buoy"],
+    "minScore": 41600
+  },
+  "Yes Coach!": {
+    "required": ["metamorphosis", "soft_touch", "compound_interest"],
+    "forbidden": ["soft_reset", "soft_brush", "hot_start"],
+    "minScore": 41700
+  },
+  "Mindustry": {
+    "required": ["superhot", "ball_attract_ball", "hot_start"],
+    "forbidden": ["smaller_puck", "etherealcoins", "three_cushion"],
+    "minScore": 41800
+  },
+  "Earth and Friends": {
+    "required": ["sticky_coins", "corner_shot", "left_is_lava"],
+    "forbidden": ["transparency", "thomas", "shocks"],
+    "minScore": 41900
+  },
+  "Maize or Corn?": {
+    "required": ["wrap_up", "reach", "puck_repulse_ball"],
+    "forbidden": ["disco_ball", "fumes", "chill"],
+    "minScore": 42000
+  },
+  "Two forts": {
+    "required": ["bricks_attract_ball", "reach", "fumes"],
+    "forbidden": ["chill", "wrap_left", "flyswatter"],
+    "minScore": 42100
+  },
+  "Always has been": {
+    "required": ["reach", "fumes", "chill"],
+    "forbidden": ["trickledown", "instant_explosion", "compound_interest"],
+    "minScore": 42200
+  },
+  "Trapped chest": {
+    "required": ["chill", "fumes", "reach"],
+    "forbidden": ["round_bricks", "bricks_attract_coins", "hardhat"],
+    "minScore": 42300
+  },
+
+  "invasion": {
+    "required": ["chill", "minefield", "fumes"],
+    "forbidden": ["addiction", "reach", "passive_income"],
+    "minScore": 42400
+  },
+  "pop rocks": {
+    "required": ["sacrifice", "chill", "fumes"],
+    "forbidden": ["reach", "wrap_up", "minefield"],
+    "minScore": 42500
+  },
+  "hyenas at play": {
+    "required": ["smaller_puck", "ottawa_treaty", "chill"],
+    "forbidden": ["fumes", "reach", "sacrifice"],
+    "minScore": 42600
+  },
+  "hole in one": {
+    "required": ["double_or_nothing", "soft_brush", "soft_reset"],
+    "forbidden": ["soft_touch", "paddle_up_combo", "right_is_lava"],
+    "minScore": 42700
+  },
+  "Manjaro linux": {
+    "required": ["vibrant_neighborhood", "chill", "fumes"],
+    "forbidden": ["transparency", "left_is_lava", "reach"],
+    "minScore": 42800
+  },
+  "Rockman": {
+    "required": ["sapper", "pierce", "superhot"],
+    "forbidden": ["bigger_puck", "three_cushion"],
+    "minScore": 12000
+  },
+  "Cristo Redentor": {
+    "required": ["extra_life", "forgiving", "thomas"],
+    "forbidden": ["pierce", "three_cushion", "slow_down"],
+    "minScore": 24000
+  },
+  "Aeropress": {
+    "required": ["forgiving", "ball_attracts_coins", "implosions"],
+    "forbidden": ["viscosity", "vibrant_neighborhood", "limitless"],
+    "minScore": 42900
+  },
+  "bankjob 71": {
+    "required": ["bigger_balls", "steering", "forgiving"],
+    "forbidden": ["viscosity", "telekinesis", "limitless"],
+    "minScore": 43000
+  },
+  "inflatable pastures": {
+    "required": ["wrap_up", "round_bricks", "telekinesis"],
+    "forbidden": ["compound_interest", "unbounded", "limitless"],
+    "minScore": 43100
+  },
+  "burgout 71": {
+    "required": ["concave_puck", "skip_last", "ball_attract_ball"],
+    "forbidden": ["sturdy_bricks", "double_or_nothing", "telekinesis"],
+    "minScore": 43200
+  },
+  "Scale": {
+    "required": ["superhot", "gravity_falls", "streak_shots"],
+    "forbidden": ["skip_last", "side_flip", "side_kick"],
+    "minScore": 43300
+  },
+  "Evil Eye": {
+    "required": ["trickledown", "three_cushion", "thomas"],
+    "forbidden": ["shocks", "sapper", "disco_ball"],
+    "minScore": 43500
+  },
+  "dragons tower": {
+    "required": ["asceticism", "fountain_toss", "soft_brush"],
+    "forbidden": ["soft_reset", "soft_touch", "steering"],
+    "minScore": 43700
+  },
+  "brickroll 71": {
+    "required": ["happy_family", "ball_repulse_ball", "puck_repulse_ball"],
+    "forbidden": ["trampoline", "superhot", "trickledown"],
+    "minScore": 43800
+  },
+  "dither fields": {
+    "required": ["ottawa_treaty", "implosions", "hardhat"],
+    "forbidden": ["ball_attracts_coins", "happy_family", "rainbow"],
+    "minScore": 43900
+  },
+  "Brick character": {
+    "required": [],
+    "forbidden": ["pierce", "addiction"],
+    "minScore": 9000
+  },
+
+  "snakeout 71": {
+    "required": ["ottawa_treaty", "implosions", "hardhat"],
+    "forbidden": ["ball_attracts_coins", "happy_family", "rainbow"],
+    "minScore": 43900
+  },
+  "Sailing Away": {
+    "required": ["bricks_attract_ball", "hot_start", "bricks_attract_coins"],
+    "forbidden": ["nbricks", "wrap_up", "implosions"],
+    "minScore": 44200
+  },
+  "Campfire": {
+    "required": ["telekinesis", "smaller_puck", "superhot"],
+    "forbidden": ["hot_start", "thomas", "wrap_left"],
+    "minScore": 44300
+  },
+  "Little Face": {
+    "required": ["left_is_lava", "wrap_left", "transparency"],
+    "forbidden": ["sticky_coins", "paddle_up_combo", "wrap_right"],
+    "minScore": 44400
+  },
+  "Earth and Friends II": {
+    "required": ["disco_ball", "hardhat", "sturdy_bricks"],
+    "forbidden": ["wrap_left", "rainbow", "bigger_explosions"],
+    "minScore": 44500
+  },
+  "Under the Moon of Love": {
+    "required": ["flyswatter", "gravity_falls", "trickledown"],
+    "forbidden": ["happy_family", "palette", "addiction"],
+    "minScore": 44600
+  },
+  "Extemely Lousy Weather": {
+    "required": ["trickledown", "puck_repulse_ball", "steering"],
+    "forbidden": ["ball_repulse_ball", "wrap_up", "addiction"],
+    "minScore": 44700
+  },
+  "Romania": {
+    "required": ["thomas", "minefield", "shocks"],
+    "forbidden": ["trampoline", "sapper", "vibrant_neighborhood"],
+    "minScore": 44800
+  },
+  "Football": {
+    "required": ["multiball", "ball_attract_ball"],
+    "forbidden": [],
+    "minScore": 11450
+  },
+
+  "Appletree": {
+    "required": ["instant_explosion", "bigger_explosions", "sacrifice"],
+    "forbidden": ["compound_interest", "etherealcoins", "implosions"],
+    "minScore": 44900
+  },
+  "Middle Age Fortress": {
+    "required": ["rainbow", "coin_magnet", "smaller_puck"],
+    "forbidden": ["respawn", "bigger_puck", "gravity_falls"],
+    "minScore": 45100
+  },
+  ">:3": {
+    "required": ["palette", "metamorphosis", "implosions"],
+    "forbidden": ["bigger_puck", "sticky_coins", "top_is_lava"],
+    "minScore": 45200
+  },
+  "Ship bottle": {
+    "required": ["nbricks", "top_is_lava", "etherealcoins"],
+    "forbidden": ["bigger_puck", "forgiving", "viscosity"],
+    "minScore": 45300
+  },
+  "ships! on the horizon": {
+    "required": ["limitless", "unbounded", "viscosity"],
+    "forbidden": ["bigger_explosions", "forgiving", "fountain_toss"],
+    "minScore": 45400
+  },
+  "Red Panda": {
+    "required": ["telekinesis", "happy_family", "disco_ball"],
+    "forbidden": ["passive_income", "skip_last", "unbounded"],
+    "minScore": 45500
+  },
+  "The Joy of Painting": {
+    "required": ["skip_last", "thomas", "shocks"],
+    "forbidden": ["sapper", "telekinesis", "hardhat"],
+    "minScore": 45600
+  },
+  "Old green Telephone": {
+    "required": ["side_flip", "side_kick", "palette"],
+    "forbidden": ["right_is_lava", "paddle_up_combo", "steering"],
+    "minScore": 45700
+  },
+  "Three of a kind": {
+    "required": ["compound_interest", "wrap_up", "trampoline"],
+    "forbidden": ["side_kick", "side_flip", "nbricks"],
+    "minScore": 45800
+  },
+  "Farming": {
+    "required": ["golden_goose", "trickledown", "gravity_falls"],
+    "forbidden": ["ball_attract_ball", "wrap_right", "double_or_nothing"],
+    "minScore": 45900
+  },
+  "OpenSurge": {
+    "required": ["asceticism", "sticky_coins", "bricks_attract_coins"],
+    "forbidden": ["left_is_lava", "transparency", "ball_attracts_coins"],
+    "minScore": 46000
+  },
+  "ants": {
+    "required": ["ottawa_treaty", "puck_repulse_ball", "ball_repulse_ball"],
+    "forbidden": ["paddle_up_combo", "bricks_attract_coins", "varied_diet"],
+    "minScore": 46100
+  },
+  "holy siege": {
+    "required": ["varied_diet", "rainbow", "steering"],
+    "forbidden": ["respawn", "sturdy_bricks", "right_is_lava"],
+    "minScore": 46200
+  },
+  "the forbidden level": {
+    "required": ["bricks_attract_ball", "instant_explosion", "happy_family"],
+    "forbidden": ["bigger_explosions", "palette", "coin_magnet"],
+    "minScore": 46300
+  },
+  "CRASH TEST 1": {
+    "required": ["coin_magnet", "nbricks", "bigger_puck"],
+    "forbidden": ["thomas", "top_is_lava", "shocks"],
+    "minScore": 46400
+  },
+  "CRASH TEST 2": {
+    "required": ["metamorphosis", "top_is_lava", "bigger_puck"],
+    "forbidden": ["soft_touch", "soft_reset", "hot_start"],
+    "minScore": 46500
+  },
+  "CRASH TEST 3": {
+    "required": ["hot_start", "etherealcoins", "vibrant_neighborhood"],
+    "forbidden": ["top_is_lava", "bigger_puck", "three_cushion"],
+    "minScore": 46600
+  },
+  "BANG-ladesh": {
+    "required": ["telekinesis", "rainbow", "golden_goose"],
+    "forbidden": ["vibrant_neighborhood", "wrap_left", "fountain_toss"],
+    "minScore": 46700
+  },
+  "The Slim Shady LP": {
+    "required": ["ball_attract_ball", "palette", "double_or_nothing"],
+    "forbidden": ["wrap_left", "telekinesis", "trampoline"],
+    "minScore": 46800
+  },
+  "Cat Finger Painting": {
+    "required": ["sapper", "shocks", "wrap_right"],
+    "forbidden": ["refill", "thomas", "nbricks"],
+    "minScore": 46900
+  },
+  "The Division Bell": {
+    "required": ["chill", "fumes", "passive_income"],
+    "forbidden": ["three_cushion", "reach", "puck_repulse_ball"],
+    "minScore": 47000
+  },
+  "DAMN.": {
+    "required": ["trampoline", "ball_attracts_coins", "chill"],
+    "forbidden": ["fumes", "reach", "happy_family"],
+    "minScore": 47100
+  },
+  "To Pimp A Butterly": {
+    "required": ["compound_interest", "minefield", "addiction"],
+    "forbidden": ["chill", "fumes", "steering"],
+    "minScore": 47200
+  },
+  "Mr.Morale & The Big Steppers": {
+    "required": ["respawn", "sacrifice", "rainbow"],
+    "forbidden": ["varied_diet", "ball_attract_ball", "chill"],
+    "minScore": 47300
+  },
+  "American Idiot": {
+    "required": ["varied_diet", "ottawa_treaty", "palette"],
+    "forbidden": ["sacrifice", "chill", "fumes"],
+    "minScore": 47400
+  },
+  "Private Music by Deftones": {
+    "required": ["soft_reset", "soft_touch", "soft_brush"],
+    "forbidden": ["superhot", "sturdy_bricks", "coin_magnet"],
+    "minScore": 47500
+  },
+  "good kid, m.A.A.d city": {
+    "required": ["coin_magnet", "golden_goose", "bigger_puck"],
+    "forbidden": ["top_is_lava", "forgiving", "chill"],
+    "minScore": 47600
+  },
+
+  "zippy": {
+    "required": ["coin_magnet", "golden_goose", "bigger_puck"],
+    "forbidden": ["top_is_lava", "forgiving", "chill"],
+    "minScore": 47600
+  },
+  "spiral anomaly": {
+    "required": ["forgiving", "bigger_puck", "thomas"],
+    "forbidden": ["top_is_lava", "shocks", "sapper"],
+    "minScore": 47700
+  },
+  "hacking the system": {
+    "required": ["metamorphosis", "rainbow", "bigger_balls"],
+    "forbidden": ["unbounded", "limitless", "top_is_lava"],
+    "minScore": 47800
+  },
+  "into the bayou": {
+    "required": ["skip_last", "bricks_attract_coins", "happy_family"],
+    "forbidden": ["sturdy_bricks", "thomas", "shocks"],
+    "minScore": 48000
+  },
+  "fluidity": {
+    "required": ["gravity_falls", "trampoline", "compound_interest"],
+    "forbidden": ["skip_last", "side_flip", "side_kick"],
+    "minScore": 48100
+  },
+  "stakeout '71": {
+    "required": ["ball_attract_ball", "side_kick", "side_flip"],
+    "forbidden": ["double_or_nothing", "wrap_right", "ball_attracts_coins"],
+    "minScore": 48200
+  },
+  "steak-out 71": {
+    "required": ["three_cushion", "side_kick", "side_flip"],
+    "forbidden": ["disco_ball", "golden_goose", "metamorphosis"],
+    "minScore": 48300
+  },
+  "cubedoubt 71": {
+    "required": ["bricks_attract_ball", "golden_goose", "respawn"],
+    "forbidden": ["flyswatter", "rainbow", "etherealcoins"],
+    "minScore": 48400
+  },
+  "ho'down": {
+    "required": ["thomas", "asceticism", "shocks"],
+    "forbidden": ["sapper", "refill", "vibrant_neighborhood"],
+    "minScore": 48500
+  },
+  "match point": {
+    "required": ["bigger_balls", "varied_diet", "vibrant_neighborhood"],
+    "forbidden": ["paddle_up_combo", "passive_income", "nbricks"],
+    "minScore": 48600
+  },
+  "Frequency Distortion 1": {
+    "required": ["ottawa_treaty", "implosions", "round_bricks"],
+    "forbidden": ["varied_diet", "coin_magnet", "bigger_balls"],
+    "minScore": 48700
+  },
+  "Frequency Distortion 2": {
+    "required": ["coin_magnet", "concave_puck", "ball_repulse_ball"],
+    "forbidden": ["puck_repulse_ball", "sturdy_bricks", "right_is_lava"],
+    "minScore": 48800
+  },
+  "Frequency Distortion 3": {
+    "required": ["bigger_puck", "rainbow", "hot_start"],
+    "forbidden": ["top_is_lava", "streak_shots", "respawn"],
+    "minScore": 48900
+  },
+  "Frequency Distortion 4": {
+    "required": ["streak_shots", "bigger_explosions", "trickledown"],
+    "forbidden": ["metamorphosis", "hardhat", "instant_explosion"],
+    "minScore": 49000
+  },
+  "Frequency Distortion 5": {
+    "required": ["helium", "three_cushion", "etherealcoins"],
+    "forbidden": ["trickledown", "smaller_puck", "streak_shots"],
+    "minScore": 49100
+  },
+  "Magma": {
+    "required": ["smaller_puck", "disco_ball", "wrap_up"],
+    "forbidden": ["ball_attracts_coins", "fountain_toss", "puck_repulse_ball"],
+    "minScore": 49200
+  },
+  "Cursed Blueberry Pie": {
+    "required": ["sticky_coins", "left_is_lava", "transparency"],
+    "forbidden": ["flyswatter", "ball_attracts_coins", "fountain_toss"],
+    "minScore": 49300
+  },
+  "Starve": {
+    "required": ["compound_interest", "hot_start", "instant_explosion"],
+    "forbidden": ["transparency", "left_is_lava", "bigger_explosions"],
+    "minScore": 49400
+  },
+  "Squabble up kitty": {
+    "required": ["bricks_attract_ball", "passive_income", "hot_start"],
+    "forbidden": ["ball_attract_ball", "trampoline", "double_or_nothing"],
+    "minScore": 49500
+  },
+  "POLYBIUS": {
+    "required": ["happy_family", "sturdy_bricks", "wrap_right"],
+    "forbidden": ["wrap_left", "paddle_up_combo", "helium"],
+    "minScore": 49600
+  },
+  "Virgin VS Chad": {
+    "required": ["wrap_left", "gravity_falls", "corner_shot"],
+    "forbidden": ["respawn", "wrap_up", "disco_ball"],
+    "minScore": 49700
+  },
+  "minbitt": {
+    "required": ["corner_shot", "bricks_attract_coins", "clairvoyant"],
+    "forbidden": ["flyswatter", "passive_income", "wrap_left"],
+    "minScore": 49800
+  },
+  "The Powers That B": {
+    "required": ["corner_shot", "clairvoyant", "soft_brush"],
+    "forbidden": ["bricks_attract_coins", "soft_reset", "soft_touch"],
+    "minScore": 49900
+  },
+  "Abacus": {
+    "required": ["smaller_puck", "superhot", "paddle_up_combo"],
+    "forbidden": ["right_is_lava", "reach", "fumes"],
+    "minScore": 50000
+  },
+  "Gamblecore": {
+    "required": ["hardhat", "addiction", "minefield"],
+    "forbidden": ["reach", "fumes", "chill"],
+    "minScore": 50100
+  },
+  "Argentina": {
+    "required": ["trickledown", "sacrifice", "reach"],
+    "forbidden": ["fumes", "chill", "soft_touch"],
+    "minScore": 50200
+  },
+  "Wasp": {
+    "required": ["reach", "ball_attracts_coins", "fumes"],
+    "forbidden": ["chill", "metamorphosis", "wrap_up"],
+    "minScore": 50300
+  },
+  "Bunny": {
+    "required": ["chill", "happy_family", "fumes"],
+    "forbidden": ["double_or_nothing", "reach", "vibrant_neighborhood"],
+    "minScore": 50400
+  },
+  "Wombat": {
+    "required": ["chill", "fumes", "reach"],
+    "forbidden": ["fountain_toss", "bricks_attract_ball", "forgiving"],
+    "minScore": 50500
+  },
+  "Twine": {
+    "required": ["wrap_right", "forgiving", "chill"],
+    "forbidden": ["fumes", "reach", "viscosity"],
+    "minScore": 50600
+  },
+  "Walk in the Park": {
+    "required": ["unbounded", "limitless", "chill"],
+    "forbidden": ["fumes", "reach", "viscosity"],
+    "minScore": 50700
+  },
+  "beyond": {
+    "required": ["golden_goose", "flyswatter", "skip_last"],
+    "forbidden": ["chill", "fumes", "reach"],
+    "minScore": 50800
+  },
+  "bunnies in the snow": {
+    "required": ["asceticism", "sturdy_bricks", "skip_last"],
+    "forbidden": ["chill", "fumes", "reach"],
+    "minScore": 50900
+  },
+  "friendly": {
+    "required": ["telekinesis", "passive_income", "fountain_toss"],
+    "forbidden": ["transparency", "left_is_lava", "sticky_coins"],
+    "minScore": 51000
+  },
+  "The two of us": {
+    "required": ["side_flip", "side_kick", "telekinesis"],
+    "forbidden": ["flyswatter", "skip_last", "happy_family"],
+    "minScore": 51100
+  },
+  "Rainbow x3": {
+    "required": ["soft_brush", "soft_reset", "soft_touch"],
+    "forbidden": ["ottawa_treaty", "hardhat", "happy_family"],
+    "minScore": 51200
+  },
+  "Pawn": {
+    "required": ["right_is_lava", "trickledown", "double_or_nothing"],
+    "forbidden": ["sturdy_bricks", "palette", "ball_attracts_coins"],
+    "minScore": 51300
+  },
+  "CalcYou": {
+    "required": ["trickledown", "wrap_up", "steering"],
+    "forbidden": ["implosions", "nbricks", "ball_attracts_coins"],
+    "minScore": 51400
+  },
+  "Windows Terminal": {
+    "required": ["trickledown", "ball_repulse_ball", "gravity_falls"],
+    "forbidden": ["puck_repulse_ball", "trampoline", "bricks_attract_ball"],
+    "minScore": 51500
+  },
+  "loss": {
+    "required": ["bricks_attract_ball", "metamorphosis", "golden_goose"],
+    "forbidden": ["wrap_right", "trickledown", "thomas"],
+    "minScore": 51600
+  },
+  "Monogolf": {
+    "required": ["superhot", "disco_ball", "hardhat"],
+    "forbidden": ["etherealcoins", "bigger_explosions", "bricks_attract_coins"],
+    "minScore": 51700
+  },
+  "Breakout 71, negative space": {
+    "required": ["flyswatter", "hot_start", "bricks_attract_coins"],
+    "forbidden": ["fountain_toss", "bigger_balls", "palette"],
+    "minScore": 51800
+  },
+  "Alphonse Elric's Blood Seal": {
+    "required": ["bigger_balls", "puck_repulse_ball", "hot_start"],
+    "forbidden": ["wrap_up", "ball_repulse_ball", "asceticism"],
+    "minScore": 51900
+  },
+  "Your Flamel Cross": {
+    "required": ["nbricks", "top_is_lava", "bigger_puck"],
+    "forbidden": ["helium", "hot_start", "happy_family"],
+    "minScore": 52000
+  },
+  "the Flamel Cross she tells you not to worry about": {
+    "required": ["wrap_left", "three_cushion", "flyswatter"],
+    "forbidden": ["happy_family", "telekinesis", "top_is_lava"],
+    "minScore": 52100
+  },
+  "Your Brand of Sacrifice.": {
+    "required": ["asceticism", "telekinesis", "soft_brush"],
+    "forbidden": ["vibrant_neighborhood", "etherealcoins", "soft_reset"],
+    "minScore": 52200
+  },
+  "The Brand of Sacrifice she tells you not to worry about": {
+    "required": ["vibrant_neighborhood", "fountain_toss", "telekinesis"],
+    "forbidden": ["hardhat", "rainbow", "trampoline"],
+    "minScore": 52300
+  },
+  "Radial Symmetry 1": {
+    "required": [
+      "ball_repulse_ball",
+      "ball_attracts_coins",
+      "puck_repulse_ball"
+    ],
+    "forbidden": ["implosions", "addiction", "palette"],
+    "minScore": 52400
+  },
+  "Radial Symmetry 2": {
+    "required": ["ottawa_treaty", "minefield", "wrap_up"],
+    "forbidden": ["golden_goose", "paddle_up_combo", "addiction"],
+    "minScore": 52500
+  },
+  "Radial Symmetry 3": {
+    "required": ["passive_income", "bigger_explosions", "sacrifice"],
+    "forbidden": ["instant_explosion", "trickledown", "right_is_lava"],
+    "minScore": 52600
+  },
+  "Radial Symmetry 5": {
+    "required": ["bigger_balls", "trickledown", "disco_ball"],
+    "forbidden": ["superhot", "bricks_attract_ball", "soft_touch"],
+    "minScore": 52700
+  },
+  "Radial Symmetry 6": {
+    "required": ["hardhat", "round_bricks", "gravity_falls"],
+    "forbidden": ["flyswatter", "trickledown", "concave_puck"],
+    "minScore": 52800
+  },
+  "Radial Symmetry 7": {
+    "required": ["metamorphosis", "concave_puck", "forgiving"],
+    "forbidden": ["thomas", "streak_shots", "shocks"],
+    "minScore": 52900
+  },
+  "Radial Symmetry 8": {
+    "required": ["palette", "coin_magnet", "disco_ball"],
+    "forbidden": ["forgiving", "varied_diet", "right_is_lava"],
+    "minScore": 53000
+  },
+  "Radial Symmetry 9": {
+    "required": ["limitless", "flyswatter", "viscosity"],
+    "forbidden": ["unbounded", "coin_magnet", "nbricks"],
+    "minScore": 53100
+  },
+  "Radial Symmetry 10": {
+    "required": ["top_is_lava", "bigger_puck", "superhot"],
+    "forbidden": ["gravity_falls", "asceticism", "unbounded"],
+    "minScore": 53200
+  },
+  "Spooder": {
+    "required": ["golden_goose", "skip_last", "trampoline"],
+    "forbidden": ["puck_repulse_ball", "top_is_lava", "ball_repulse_ball"],
+    "minScore": 53300
+  },
+  "Mantis": {
+    "required": ["telekinesis", "rainbow", "three_cushion"],
+    "forbidden": ["side_flip", "side_kick", "implosions"],
+    "minScore": 53400
+  },
+  "Dragonfly": {
+    "required": ["compound_interest", "palette", "bigger_balls"],
+    "forbidden": ["telekinesis", "side_kick", "side_flip"],
+    "minScore": 53500
+  },
+  "Roach": {
+    "required": ["nbricks", "round_bricks", "fountain_toss"],
+    "forbidden": ["wrap_up", "bricks_attract_coins", "ball_attract_ball"],
+    "minScore": 53600
+  },
+  "House Fly": {
+    "required": ["bricks_attract_ball", "concave_puck", "bricks_attract_coins"],
+    "forbidden": ["soft_touch", "soft_reset", "soft_brush"],
+    "minScore": 53700
+  },
+  "XJ-9 Jenny Wakeman": {
+    "required": ["ottawa_treaty", "streak_shots", "paddle_up_combo"],
+    "forbidden": ["trickledown", "concave_puck", "bricks_attract_coins"],
+    "minScore": 53800
+  },
+  "My Life as a Teenage Robot": {
+    "required": ["trickledown", "hardhat", "right_is_lava"],
+    "forbidden": ["smaller_puck", "sturdy_bricks", "rainbow"],
+    "minScore": 53900
+  },
+  "Radial Symmetry 4": {
+    "required": ["respawn", "bigger_explosions", "disco_ball"],
+    "forbidden": ["instant_explosion", "rainbow", "fountain_toss"],
+    "minScore": 54000
+  },
+  "Damsel-fly": {
+    "required": ["varied_diet", "passive_income", "golden_goose"],
+    "forbidden": ["palette", "flyswatter", "vibrant_neighborhood"],
+    "minScore": 54100
+  },
+  "Tamil": {
+    "required": ["paddle_up_combo", "vibrant_neighborhood", "varied_diet"],
+    "forbidden": ["coin_magnet", "superhot", "nbricks"],
+    "minScore": 54200
+  },
+  "Genderfluid Pride": {
+    "required": ["compound_interest", "ball_attracts_coins"],
+    "forbidden": ["double_or_nothing", "limitless", "sacrifice"],
+    "minScore": 4000
+  },
+  "stopping by woods on a snowy evening": {
+    "required": ["coin_magnet", "trampoline", "hot_start"],
+    "forbidden": ["bigger_puck", "bigger_balls", "right_is_lava"],
+    "minScore": 54300
+  },
+  "respite": {
+    "required": ["bigger_puck", "top_is_lava", "compound_interest"],
+    "forbidden": ["sturdy_bricks", "wrap_left", "coin_magnet"],
+    "minScore": 54400
+  },
+  "old house": {
+    "required": ["ball_attracts_coins", "ball_attract_ball", "rainbow"],
+    "forbidden": ["gravity_falls", "wrap_left", "double_or_nothing"],
+    "minScore": 54500
+  },
+  "platformer": {
+    "required": ["palette", "steering", "streak_shots"],
+    "forbidden": ["telekinesis", "concave_puck", "top_is_lava"],
+    "minScore": 54600
+  },
+  "Red Rose": {
+    "required": ["addiction", "minefield", "smaller_puck"],
+    "forbidden": ["telekinesis", "etherealcoins", "bricks_attract_ball"],
+    "minScore": 54800
+  },
+  "The Annoying Thing": {
+    "required": ["sticky_coins", "left_is_lava", "transparency"],
+    "forbidden": ["sacrifice", "implosions", "superhot"],
+    "minScore": 54900
+  },
+  "Totally Normal Looking Fluffy Boy": {
+    "required": ["chill", "fumes", "sacrifice"],
+    "forbidden": ["reach", "golden_goose", "minefield"],
+    "minScore": 55000
+  },
+  "Unknown Mother Goose (wowaka)": {
+    "required": ["metamorphosis", "respawn", "chill"],
+    "forbidden": ["fumes", "reach", "sacrifice"],
+    "minScore": 55100
+  },
+  "HeliBoard": {
+    "required": ["bigger_balls", "etherealcoins", "chill"],
+    "forbidden": ["fumes", "reach", "three_cushion"],
+    "minScore": 55200
+  },
+  "Fossify Calendar": {
+    "required": ["round_bricks", "varied_diet", "chill"],
+    "forbidden": ["fumes", "reach", "fountain_toss"],
+    "minScore": 55300
+  },
+  "Double or Nothing Russian Roulette": {
+    "required": ["forgiving", "wrap_right", "double_or_nothing"],
+    "forbidden": ["viscosity", "varied_diet", "limitless"],
+    "minScore": 55400
+  },
+  "DVD Screensavers' Untouched Territories": {
+    "required": ["coin_magnet", "unbounded", "limitless"],
+    "forbidden": ["bricks_attract_coins", "viscosity", "paddle_up_combo"],
+    "minScore": 55500
+  },
+  "Bow & Arrow": {
+    "required": ["smaller_puck", "bigger_puck", "rainbow"],
+    "forbidden": ["top_is_lava", "skip_last", "respawn"],
+    "minScore": 55600
+  },
+  "Paraguayan flag": {
+    "required": ["asceticism", "passive_income", "top_is_lava"],
+    "forbidden": ["palette", "bigger_puck", "sticky_coins"],
+    "minScore": 55700
+  },
+  "the light recedes": {
+    "required": ["bricks_attract_ball", "side_flip", "side_kick"],
+    "forbidden": ["gravity_falls", "nbricks", "thomas"],
+    "minScore": 55800
+  },
+  "the light encroaches": {
+    "required": ["telekinesis", "implosions", "superhot"],
+    "forbidden": ["side_kick", "side_flip", "metamorphosis"],
+    "minScore": 55900
+  },
+  "the intimate out of reach": {
+    "required": ["ottawa_treaty", "bigger_balls", "soft_touch"],
+    "forbidden": ["soft_reset", "soft_brush", "vibrant_neighborhood"],
+    "minScore": 56000
+  },
+  "resonate": {
+    "required": ["round_bricks", "vibrant_neighborhood", "steering"],
+    "forbidden": ["sturdy_bricks", "right_is_lava", "concave_puck"],
+    "minScore": 56100
+  },
+  "intersecting": {
+    "required": ["concave_puck", "respawn", "implosions"],
+    "forbidden": ["streak_shots", "rainbow", "round_bricks"],
+    "minScore": 56200
+  },
+  "bamboo garden": {
+    "required": ["streak_shots", "gravity_falls", "double_or_nothing"],
+    "forbidden": ["palette", "trampoline", "ball_attract_ball"],
+    "minScore": 56300
+  },
+  "mona lisa": {
+    "required": ["metamorphosis", "smaller_puck", "wrap_right"],
+    "forbidden": ["superhot", "varied_diet", "nbricks"],
+    "minScore": 56400
+  },
+  "My Honest Reaction": {
+    "required": ["etherealcoins", "ball_repulse_ball", "varied_diet"],
+    "forbidden": ["disco_ball", "puck_repulse_ball", "three_cushion"],
+    "minScore": 56500
+  },
+  "Small Android": {
+    "required": ["flyswatter", "ball_attracts_coins", "varied_diet"],
+    "forbidden": ["hot_start", "transparency", "left_is_lava"],
+    "minScore": 56600
+  },
+  "Good boy in the bush": {
+    "required": ["respawn", "bigger_explosions", "coin_magnet"],
+    "forbidden": ["rainbow", "asceticism", "instant_explosion"],
+    "minScore": 56700
+  },
+  "Copyright": {
+    "required": ["wrap_left", "coin_magnet", "bigger_puck"],
+    "forbidden": ["happy_family", "top_is_lava", "trampoline"],
+    "minScore": 56800
+  },
+  "Copyleft": {
+    "required": ["top_is_lava", "bigger_puck", "right_is_lava"],
+    "forbidden": ["nbricks", "wrap_left", "implosions"],
+    "minScore": 56900
+  },
+  "❌": {
+    "required": ["concave_puck", "asceticism", "soft_brush"],
+    "forbidden": ["soft_reset", "soft_touch", "round_bricks"],
+    "minScore": 57000
+  },
+  "Deal": {
+    "required": ["streak_shots", "steering", "fountain_toss"],
+    "forbidden": ["hardhat", "concave_puck", "addiction"],
+    "minScore": 57100
+  },
+  "Pipe ©": {
+    "required": ["passive_income", "implosions", "addiction"],
+    "forbidden": ["smaller_puck", "minefield", "paddle_up_combo"],
+    "minScore": 57200
+  },
+  "Flappy Bird": {
+    "required": ["helium", "compound_interest"],
+    "forbidden": ["bigger_puck"],
+    "minScore": 7000
+  },
+  "Free Speech Flag / 09 F9": {
+    "required": ["chill"],
+    "forbidden": ["double_or_nothing"],
+    "minScore": 10000
+  },
+  "Subspace Tripmine": {
+    "required": ["zen", "minefield", "double_or_nothing", "sapper"],
+    "forbidden": ["ottawa_treaty", "one_more_choice", "extra_levels"],
+    "minScore": 1
+  },
+  "Magisk": {
+    "required": ["limitless"],
+    "forbidden": ["chill"],
+    "minScore": 2147483647
+  },
+  "Image Toolbox": {
+    "required": ["wrap_left", "left_is_lava", "minefield"],
+    "forbidden": ["clairvoyant"],
+    "minScore": 20100
+  },
+  "Flower Patch": {
+    "required": ["transparency", "left_is_lava", "sticky_coins"],
+    "forbidden": ["superhot", "puck_repulse_ball", "sacrifice"],
+    "minScore": 57400
+  },
+  "dungeon crawling": {
+    "required": ["disco_ball", "bricks_attract_coins", "passive_income"],
+    "forbidden": ["sacrifice", "soft_touch", "gravity_falls"],
+    "minScore": 57500
+  },
+  "solace": {
+    "required": ["instant_explosion", "bigger_explosions", "compound_interest"],
+    "forbidden": ["flyswatter", "happy_family", "gravity_falls"],
+    "minScore": 57600
+  },
+  "blending": {
+    "required": ["metamorphosis", "varied_diet", "happy_family"],
+    "forbidden": ["forgiving", "ball_attracts_coins", "viscosity"],
+    "minScore": 57700
+  },
+  "hidden spirals": {
+    "required": ["varied_diet", "viscosity", "trampoline"],
+    "forbidden": ["limitless", "respawn", "etherealcoins"],
+    "minScore": 57800
+  },
+  "interlace": {
+    "required": ["thomas", "bricks_attract_ball", "shocks"],
+    "forbidden": ["sapper", "refill", "coin_magnet"],
+    "minScore": 57900
+  },
+  "on the edge of everything": {
+    "required": ["gravity_falls", "asceticism", "vibrant_neighborhood"],
+    "forbidden": ["ghost_coins", "skip_last", "unbounded"],
+    "minScore": 58000
+  },
+  "eternity falls": {
+    "required": ["skip_last", "bigger_explosions", "smaller_puck"],
+    "forbidden": ["instant_explosion", "trampoline", "metamorphosis"],
+    "minScore": 58100
+  },
+  "N64 controller": {
+    "required": ["paddle_up_combo", "fountain_toss", "superhot"],
+    "forbidden": ["respawn", "happy_family", "wrap_up"],
+    "minScore": 58400
+  },
+  "killing 2 birds with 1 ball": {
+    "required": ["compound_interest", "happy_family", "soft_touch"],
+    "forbidden": ["soft_reset", "disco_ball", "soft_brush"],
+    "minScore": 58500
+  },
+  "black cat": {
+    "required": ["ball_attracts_coins", "thomas", "shocks"],
+    "forbidden": ["sapper", "sturdy_bricks", "refill"],
+    "minScore": 58700
+  },
+  "Mr Pioupiou": {
+    "required": ["passive_income", "steering", "trampoline"],
+    "forbidden": ["gravity_falls", "varied_diet", "golden_goose"],
+    "minScore": 58800
+  },
+  "the original starwalker": {
+    "required": ["bricks_attract_ball", "telekinesis", "golden_goose"],
+    "forbidden": ["etherealcoins", "double_or_nothing", "three_cushion"],
+    "minScore": 59000
+  },
+  "EU flag": {
+    "required": ["wrap_right", "palette", "fountain_toss"],
+    "forbidden": ["golden_goose", "telekinesis", "trickledown"],
+    "minScore": 59100
+  },
+  "OpenStreetMap": {
+    "required": ["wrap_up", "nbricks", "bricks_attract_coins"],
+    "forbidden": ["bigger_balls", "ball_repulse_ball", "trickledown"],
+    "minScore": 59200
+  },
+  "Blues Brothers": {
+    "required": ["helium", "bricks_attract_coins", "trickledown"],
+    "forbidden": ["flyswatter", "bigger_balls", "round_bricks"],
+    "minScore": 59300
+  },
+  "Fox Paw": {
+    "required": ["asceticism", "trickledown", "round_bricks"],
+    "forbidden": ["concave_puck", "passive_income", "bigger_explosions"],
+    "minScore": 59400
+  },
+  "ninja fox logo": {
+    "required": ["hardhat", "streak_shots", "hot_start"],
+    "forbidden": ["sturdy_bricks", "concave_puck", "trickledown"],
+    "minScore": 59500
+  },
+  "Geometry Dash Logo": {
+    "required": ["implosions", "gravity_falls", "puck_repulse_ball"],
+    "forbidden": ["hot_start", "ball_repulse_ball", "streak_shots"],
+    "minScore": 59600
+  },
+  "Lemming": {
+    "required": ["smaller_puck", "wrap_left", "wrap_up"],
+    "forbidden": ["passive_income", "nbricks", "metamorphosis"],
+    "minScore": 5970
+  },
+  "Lego figure": {
+    "required": ["ball_attracts_coins", "sticky_coins", "compound_interest"],
+    "forbidden": ["left_is_lava", "transparency", "instant_explosion"],
+    "minScore": 5980
+  },
+  "Ghostbusters": {
+    "required": ["vibrant_neighborhood", "disco_ball", "etherealcoins"],
+    "forbidden": ["ball_attract_ball", "transparency", "soft_touch"],
+    "minScore": 5990
+  },
+  "Slimer": {
+    "required": ["top_is_lava", "bigger_puck", "bricks_attract_ball"],
+    "forbidden": ["telekinesis", "bigger_balls", "coin_magnet"],
+    "minScore": 6000
+  },
+  "Mondrian Composition II": {
+    "required": ["helium", "ball_repulse_ball", "bigger_balls"],
+    "forbidden": ["puck_repulse_ball", "telekinesis", "rainbow"],
+    "minScore": 6010
+  },
+  "Old Postcard": {
+    "required": ["round_bricks", "minefield", "metamorphosis"],
+    "forbidden": ["palette", "telekinesis", "disco_ball"],
+    "minScore": 60200
+  },
+  "greg1415": {
+    "required": ["bigger_explosions", "sacrifice", "flyswatter"],
+    "forbidden": ["nbricks", "instant_explosion", "concave_puck"],
+    "minScore": 60300
+  },
+  "Zala": {
+    "required": ["streak_shots"],
+    "forbidden": [],
+    "minScore": 4000
+  },
+  "Wheatley": {
+    "required": ["smaller_puck", "trampoline", "trickledown"],
+    "forbidden": ["puck_repulse_ball", "ball_repulse_ball", "fountain_toss"],
+    "minScore": 60500
+  },
+  "Weighted Companion Cube": {
+    "required": ["trickledown", "hardhat", "sticky_coins"],
+    "forbidden": ["helium", "forgiving", "left_is_lava"],
+    "minScore": 60600
+  },
+  "Nìtsuga": {
+    "required": ["viscosity", "forgiving", "limitless"],
+    "forbidden": ["unbounded", "compound_interest", "transparency"],
+    "minScore": 60700
+  },
+  "Degoogle": {
+    "required": ["wrap_up", "ball_attract_ball", "sturdy_bricks"],
+    "forbidden": ["unbounded", "double_or_nothing", "limitless"],
+    "minScore": 60800
+  },
+  "What is reality? (1)": {
+    "required": ["skip_last", "happy_family", "soft_touch"],
+    "forbidden": ["soft_reset", "gravity_falls", "soft_brush"],
+    "minScore": 60900
+  },
+  "What is reality? (2)": {
+    "required": ["coin_magnet", "skip_last", "round_bricks"],
+    "forbidden": ["puck_repulse_ball", "ball_repulse_ball", "bigger_puck"],
+    "minScore": 61000
+  },
+  "What is reality? (3)": {
+    "required": ["concave_puck", "bricks_attract_ball", "bigger_puck"],
+    "forbidden": ["ottawa_treaty", "top_is_lava", "coin_magnet"],
+    "minScore": 61100
+  },
+  "What is reality? (4)": {
+    "required": ["rainbow", "bricks_attract_coins", "compound_interest"],
+    "forbidden": ["streak_shots", "side_kick", "side_flip"],
+    "minScore": 61200
+  },
+  "What is reality? (5)": {
+    "required": ["palette", "steering", "telekinesis"],
+    "forbidden": ["smaller_puck", "flyswatter", "ball_attract_ball"],
+    "minScore": 61300
+  }
+}

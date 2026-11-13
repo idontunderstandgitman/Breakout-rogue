@@ -1,0 +1,84 @@
+body {
+  background: #333;
+  margin: 0;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+
+#editor {
+  color: #fff;
+  background: #000;
+  grid-template: "list name palette"
+                 "list credit palette"
+                 "list tools palette"
+                 "list bricks palette" 1fr
+                 "new bricks palette"
+                 / 200px calc(100vw - 300px) 80px;
+  gap: 10px;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+}
+
+#list {
+  flex-direction: column;
+  grid-area: list;
+  display: flex;
+  overflow: auto;
+}
+
+#list button {
+  text-align: left;
+  color: #fff;
+  cursor: pointer;
+  background: #333;
+  border: none;
+  border-bottom: 1px solid #222;
+  padding: 10px;
+}
+
+#list button.active, #list button:hover {
+  background: #000;
+}
+
+#palette {
+  grid-area: palette;
+  width: 80px;
+  overflow: auto;
+}
+
+#palette button.active {
+  transform: scale(1.2);
+}
+
+#bricks {
+  grid-area: bricks;
+  overflow: auto;
+}
+
+#level-bricks-preview {
+  position: relative;
+}
+
+#name {
+  grid-area: name;
+}
+
+#credit {
+  grid-area: credit;
+  gap: 10px;
+  display: flex;
+}
+
+#credit > * {
+  flex-grow: 1;
+}
+
+#tools {
+  grid-area: tools;
+}
+
+#new {
+  grid-area: new;
+}
+/*# sourceMappingURL=editor.9680328c.css.map */

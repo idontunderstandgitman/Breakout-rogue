@@ -1,0 +1,21 @@
+<p>
+Questa è una versione roguelike della formula originale di Breakout:
+L'obiettivo è catturare quante più monete possibile durante i 7 livelli.
+Le monete appaiono quando distruggi i mattoni.
+Volano in giro, rimbalzano e rotolano e devi catturarle con la barra.
+Alla fine del livello, puoi scegliere i potenziamenti.
+Esistono oltre 50 potenziamenti diversi che influiscono sul gameplay in vari modi.
+Molti potenziamenti avranno un impatto sulla tua combo, ovvero il numero di monete generate per ogni mattone distrutto.
+La "combo" viene visualizzata sulla barra. Il punteggio viene visualizzato nell'angolo in alto a destra dello schermo.
+Oh, e non perdere la pallina, non hai vite extra.
+</p>
+
+<p>
+L'app dovrebbe funzionare offline e funzionare bene anche su dispositivi di fascia bassa.
+È molto snella e non occupa molto spazio di archiviazione (circa 0,1 MB).
+Se l'app funziona lentamente, attiva la "modalità veloce" nelle impostazioni.
+</p>
+
+<p>
+La guida in-game ti dirà di più su come giocare. Adesso divertiti e condividi le tue corse migliori sul nostro Discord.
+</p>
