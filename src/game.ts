@@ -297,17 +297,31 @@ function stopPlayCountDown() {
   timers.forEach((id) => clearTimeout(id));
   timers.length = 0;
 }
-/** Rogue retro curse : the touch screen is two buttons, left half and right half */
-function retroTouch(x: number) {
+/**
+ * Rogue retro curse : the touch screen is two buttons, left half and right half.
+ * The paddle goes the way of the last finger that is down, and stops when none is.
+ * Returns false when the curse is not active, the normal touch controls then apply.
+ */
+function retroTouch(touches: TouchList) {
   if (!(mainGameState.rogueCurses?.retro > 0)) return false;
-  mainGameState.retroDirection = x < mainGameState.canvasWidth / 2 ? -1 : 1;
+  const last = touches[touches.length - 1];
+  mainGameState.retroDirection = last
+    ? last.pageX < mainGameState.canvasWidth / 2
+      ? -1
+      : 1
+    : 0;
   return true;
 }
 gameCanvas.addEventListener("touchstart", (e) => {
   e.preventDefault();
   if (!e.touches?.length) return;
-  if (!retroTouch(e.touches[0].pageX))
-    setMousePos(mainGameState, e.touches[0].pageX);
+  if (retroTouch(e.touches)) {
+    // Buttons, not "hold to play" : the round starts on the first press, no countdown
+    stopPlayCountDown();
+    play();
+    return;
+  }
+  setMousePos(mainGameState, e.touches[0].pageX);
   normalizeGameState(mainGameState);
   if (mainGameState.levelTime || !isOptionOn("touch_delayed_start")) {
     play();
@@ -316,21 +330,21 @@ gameCanvas.addEventListener("touchstart", (e) => {
     startPlayCountDown();
   }
 });
-gameCanvas.addEventListener("touchend", (e) => {
-  mainGameState.retroDirection = 0;
-  stopPlayCountDown();
+function touchEnded(e: TouchEvent) {
   e.preventDefault();
-  pause(true);
-});
-gameCanvas.addEventListener("touchcancel", (e) => {
   mainGameState.retroDirection = 0;
+  if (retroTouch(e.touches)) {
+    // Releasing a button only stops the paddle, the game keeps running
+    return;
+  }
   stopPlayCountDown();
-  e.preventDefault();
   pause(true);
-});
+}
+gameCanvas.addEventListener("touchend", touchEnded);
+gameCanvas.addEventListener("touchcancel", touchEnded);
 gameCanvas.addEventListener("touchmove", (e) => {
   if (!e.touches?.length) return;
-  if (retroTouch(e.touches[0].pageX)) return;
+  if (retroTouch(e.touches)) return;
   setMousePos(mainGameState, e.touches[0].pageX);
 });
 
