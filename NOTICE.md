@@ -17,3 +17,8 @@ Source code of this version: <https://github.com/idontunderstandgitman/Breakout-
 
 Network use: if you run this game on a server, section 13 of the AGPL requires that users can get the corresponding source.
 The in-game menu links to this repository for that reason. Keep that link pointing at the exact source you deploy.
+
+## Gameplay change to an existing upgrade
+
+- **Passive income**: the balls now pass through the immaterial (moving) paddle at every level, not only from level 2.
+  The tooltip and description were updated to say so.
