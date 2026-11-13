@@ -96,6 +96,9 @@ import {
   hitsSomething,
 } from "./hitsSomething";
 
+/** Expected number of sparkles per frame for all the bricks waiting to respawn */
+const MAX_RESPAWN_SPARKLES_PER_FRAME = 2;
+
 export function setMousePos(gameState: GameState, x: number) {
   if (isComputerControlled(gameState)) return;
   if (isRogue(gameState) && gameState.rogueCurses?.slow_paddle > 0) {
@@ -1920,14 +1923,21 @@ export function gameStateTick(
     toast(t("rogue.boss.too_slow"));
   }
 
-  // Respawn what's needed, show particles
+  // Respawn what's needed, show particles.
+  // Boss rounds can have dozens of bricks waiting : the sparkles are shared between
+  // them (about 2 per frame in total), or they would flood the particle budget.
+  const pendingRespawns = liveCount(gameState.respawns);
+  const sparkleChance = Math.min(
+    1,
+    MAX_RESPAWN_SPARKLES_PER_FRAME / Math.max(1, pendingRespawns),
+  );
   forEachLiveOne(gameState.respawns, (r, ri) => {
     if (gameState.bricks[r.index]) {
       destroy(gameState.respawns, ri);
     } else if (gameState.levelTime > r.time) {
       setBrick(gameState, r.index, r.color);
       destroy(gameState.respawns, ri);
-    } else {
+    } else if (Math.random() < sparkleChance) {
       const { index, color } = r;
       const vertical = Math.random() > 0.5;
       const dx = Math.random() > 0.5 ? 1 : -1;
